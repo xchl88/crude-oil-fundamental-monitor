@@ -1,0 +1,9 @@
+# Raw downloads (re-created by pipeline.py); includes Yahoo futures data that must not be redistributed
+data/raw/
+data/raw_*/
+data/curve_snapshots.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env

@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+openpyxl
+xlrd
+requests
+yfinance
+statsmodels
+tabulate
