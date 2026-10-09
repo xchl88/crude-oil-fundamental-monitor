@@ -8,18 +8,18 @@ Weekly sample 2010-01-08 – 2024-03-29 (743 WPSR weeks). Prices taken at the We
 
 | Variable | Coef. | t-stat | p-value |
 |---|---:|---:|---:|
-| const | -0.0151 | -0.22 | 0.828 |
-| cushing_stocks_dev | -0.0295 | -6.30 | 0.000 |
-| crude_stocks_dev | -0.0027 | -1.93 | 0.053 |
+| const | -0.0142 | -0.20 | 0.839 |
+| cushing_stocks_dev | -0.0295 | -6.31 | 0.000 |
+| crude_stocks_dev | -0.0028 | -1.95 | 0.051 |
 
 WTI M1–M2 by quartile of Cushing stocks vs 5-yr norm:
 
 | cushing_stocks_dev   |   count |   mean |   median |   share backwardated |
 |:---------------------|--------:|-------:|---------:|---------------------:|
-| Q1 (tightest)        |     186 |   0.65 |     0.47 |                 0.83 |
-| Q2                   |     186 |  -0.06 |    -0.06 |                 0.41 |
+| Q1 (tightest)        |     186 |   0.65 |     0.47 |                 0.82 |
+| Q2                   |     186 |  -0.05 |    -0.06 |                 0.41 |
 | Q3                   |     185 |  -0.58 |    -0.38 |                 0.07 |
-| Q4 (loosest)         |     186 |  -0.66 |    -0.54 |                 0.01 |
+| Q4 (loosest)         |     186 |  -0.65 |    -0.53 |                 0.01 |
 
 ## 2. Weekly changes
 
@@ -49,25 +49,25 @@ WTI M1–M2 by quartile of Cushing stocks vs 5-yr norm:
 
 | Variable | Coef. | t-stat | p-value |
 |---|---:|---:|---:|
-| const | 0.0183 | 1.09 | 0.277 |
-| cushing_stocks_chg_mb | -0.0186 | -1.08 | 0.279 |
-| cush_x_tight | -0.0324 | -1.34 | 0.181 |
-| tight | -0.0401 | -1.53 | 0.127 |
+| const | 0.0180 | 1.08 | 0.281 |
+| cushing_stocks_chg_mb | -0.0190 | -1.11 | 0.267 |
+| cush_x_tight | -0.0320 | -1.32 | 0.187 |
+| tight | -0.0399 | -1.51 | 0.130 |
 
 ## 4. Brent–WTI spot spread (2016+, after the US export ban was lifted)
 
-**Brent–WTI spot ($/bbl) on Cushing deviation (million bbl) and US crude exports (mb/d)** (n = 431, R² = 0.244, Newey-West SE, 4 lags)
+**Brent–WTI spot ($/bbl) on Cushing deviation (million bbl) and US crude exports (mb/d)** (n = 431, R² = 0.243, Newey-West SE, 4 lags)
 
 | Variable | Coef. | t-stat | p-value |
 |---|---:|---:|---:|
-| const | 3.0310 | 6.34 | 0.000 |
-| cushing_stocks_dev | -0.0702 | -3.63 | 0.000 |
-| exports_mbd | 0.3671 | 2.23 | 0.026 |
+| const | 3.0307 | 6.35 | 0.000 |
+| cushing_stocks_dev | -0.0703 | -3.63 | 0.000 |
+| exports_mbd | 0.3672 | 2.23 | 0.026 |
 
 ## Key findings
-1. **Stock levels explain curve structure; weekly changes barely do.** Deviations of Cushing and total US crude stocks from seasonal norms explain 36% of the variation in WTI M1–M2, with Cushing the stronger variable: each 1 mb of Cushing below normal goes with ~$0.030/bbl more backwardation, and the tightest Cushing quartile was backwardated 83% of the time vs 1% in the loosest.
+1. **Stock levels explain curve structure; weekly changes barely do.** Deviations of Cushing and total US crude stocks from seasonal norms explain 36% of the variation in WTI M1–M2, with Cushing the stronger variable: each 1 mb of Cushing below normal goes with ~$0.029/bbl more backwardation, and the tightest Cushing quartile was backwardated 82% of the time vs 1% in the loosest.
 2. **Weekly inventory changes have the expected sign but little explanatory power** (R² 0.03 for the spread, 0.03 for returns). A 1 mb Cushing draw goes with ~$0.031/bbl spread tightening; headline crude changes are not significant for the spread. Without consensus data, these are actual changes, not surprises.
-3. **No significant evidence that Cushing changes matter more when Cushing is tight** (interaction p = 0.18). The point estimate has the expected sign, but the data do not support claiming a regime difference.
+3. **No significant evidence that Cushing changes matter more when Cushing is tight** (interaction p = 0.19). The point estimate has the expected sign, but the data do not support claiming a regime difference.
 4. **Brent–WTI is wider when Cushing is tight and US exports are high** (2016+), consistent with WTI pricing as the export barrel that has to move overseas; this is an association.
 
 ## Reading the results

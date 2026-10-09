@@ -10,6 +10,9 @@ changes / averages / 5-year seasonal ranges / curve spreads, and writes:
 Usage:
     python pipeline.py            # download fresh data, rebuild everything
     python pipeline.py --offline  # rebuild from data/raw without downloading
+    python pipeline.py --offline --asof 2026-10-07
+        # weekly report mode: only data available at the Wednesday NYMEX settle
+        # after that day's EIA release; writes to reports/<date>/
 
 EIA source: if the environment variable EIA_API_KEY is set, series come from the
 EIA Open Data API v2 (JSON); otherwise from EIA's public history .xls files.
@@ -32,6 +35,7 @@ ROOT = Path(__file__).resolve().parent
 RAW = ROOT / "data" / "raw"
 OUT = ROOT / "output"
 CHARTS = OUT / "charts"
+ASOF = None   # pd.Timestamp in report mode (set by --asof)
 EIA_URL = "https://www.eia.gov/dnav/pet/hist_xls/{key}.xls"
 EIA_API = "https://api.eia.gov/v2/seriesid/PET.{series}.{freq}"
 
@@ -42,7 +46,8 @@ PRICES = {  # daily spot, $/bbl (EIA stopped publishing NYMEX futures in April 2
 }
 # Futures come from Yahoo Finance: continuous front-month plus individual contracts.
 # BZ = NYMEX Brent Last Day Financial (cash-settles against ICE Brent).
-FUT_CONT = {"wti_fut": "CL=F", "brent_fut": "BZ=F"}
+FUT_CONT = {"wti_fut": "CL=F", "brent_fut": "BZ=F",
+            "ulsd_fut": "HO=F", "rbob_fut": "RB=F"}   # products in $/gal
 MONTH_CODES = "FGHJKMNQUVXZ"
 CURVE_MONTHS = 13
 WEEKLY = {  # week ending Friday
@@ -134,9 +139,17 @@ def download_futures(offline):
         for i in range(CURVE_MONTHS + 1):
             m = today + pd.DateOffset(months=i)
             tickers.append(contract(root, m.year, m.month))
+    for root in ("HO", "RB"):   # products, for cracks on matched delivery months
+        for i in range(4):
+            m = today + pd.DateOffset(months=i)
+            tickers.append(contract(root, m.year, m.month))
         tickers += [contract(root, today.year, 12), contract(root, today.year + 1, 12)]
     ctr = yf.download(sorted(set(tickers)), period="2y", progress=False, auto_adjust=False)["Close"]
-    ctr.dropna(how="all").to_csv(ctr_path)
+    ctr = ctr.dropna(how="all")
+    if ctr_path.exists():   # Yahoo drops expired contracts: keep their history locally
+        old = pd.read_csv(ctr_path, index_col=0, parse_dates=True)
+        ctr = ctr.combine_first(old)
+    ctr.to_csv(ctr_path)
 
 
 def delivery(ticker):
@@ -144,14 +157,40 @@ def delivery(ticker):
     return pd.Timestamp(2000 + yy, MONTH_CODES.index(code) + 1, 1)
 
 
+def expiry(ticker):
+    """Approximate last trading day (business days, exchange holidays ignored).
+    CL: 3 business days before the 25th of the month before delivery
+        (25th itself rolled back if not a business day).
+    BZ (Brent last-day financial): last business day of the second month
+        before delivery."""
+    from pandas.tseries.offsets import BDay, BMonthEnd
+    d = delivery(ticker)
+    if ticker.startswith("CL"):
+        t = (d - pd.DateOffset(months=1)).replace(day=25)
+        if t.weekday() >= 5:
+            t = t - BDay(1)
+        return t - BDay(3)
+    return BMonthEnd().rollforward(d - pd.DateOffset(months=2))
+
+
+def live_contracts(ctr, root, day):
+    """Contracts priced on `day` that do not expire on or before it. Excluding
+    the expiring contract on its last day is the usual roll convention and
+    avoids stale prints Yahoo sometimes carries after expiry."""
+    cols = [c for c in ctr.columns if c.startswith(root) and pd.notna(ctr.loc[day, c]) and expiry(c) > day]
+    return sorted(cols, key=delivery)
+
+
 def build_curve():
-    """Return (contracts table, latest curve). A contract is 'live' if it priced
-    on the latest date; M1 is the nearest live delivery month."""
+    """Return (contracts table, curve on the last date). M1 is the nearest
+    live delivery month (see live_contracts)."""
     ctr = pd.read_csv(RAW / "futures_contracts.csv", index_col=0, parse_dates=True)
+    if ASOF is not None:
+        ctr = ctr[ctr.index <= ASOF]
     last = ctr.index[-1]
     curves = {}
     for root in ("CL", "BZ"):
-        cols = sorted([c for c in ctr.columns if c.startswith(root) and pd.notna(ctr.loc[last, c])], key=delivery)
+        cols = live_contracts(ctr, root, last)
         curves[root] = pd.Series({delivery(c): ctr.loc[last, c] for c in cols[:CURVE_MONTHS]})
     curve = pd.DataFrame({"wti": curves["CL"], "brent": curves["BZ"]})
     curve.index.name = "delivery_month"
@@ -173,8 +212,7 @@ def front_spread(root):
     """Daily history of the spread between the two contracts that are M1 and M2
     today (a fixed pair, so changes are not distorted by contract rolls)."""
     ctr, _ = build_curve()
-    last = ctr.index[-1]
-    live = sorted([c for c in ctr.columns if c.startswith(root) and pd.notna(ctr.loc[last, c])], key=delivery)
+    live = live_contracts(ctr, root, ctr.index[-1])
     s = (ctr[live[0]] - ctr[live[1]]).dropna()
     s.name = f"{live[0][:5]}–{live[1][:5]}"
     return s
@@ -183,6 +221,11 @@ def front_spread(root):
 def build_prices():
     p = pd.DataFrame({k: read_eia(v) for k, v in PRICES.items()}).sort_index()
     f = pd.read_csv(RAW / "futures_continuous.csv", index_col=0, parse_dates=True)
+    if ASOF is not None:
+        # EIA posts spot assessments with a lag: on a Wednesday evening the
+        # latest available is Tuesday's. Futures use the Wednesday settle.
+        p = p[p.index <= ASOF - pd.Timedelta(days=1)]
+        f = f[f.index <= ASOF]
     p = p.join(f, how="outer")
     p = p[p.index >= "2015-01-01"]
     p["brent_wti_spot"] = p["brent_spot"] - p["wti_spot"]
@@ -193,14 +236,34 @@ def build_prices():
         p[f"{name}_zz"] = ctr[z1] - ctr[z2]   # Dec/Dec spread, >0 backwardation
     # matched delivery month Brent-WTI futures spread (Dec contract)
     p["brent_wti_fut_dec"] = ctr[contract("BZ", y, 12)] - ctr[contract("CL", y, 12)]
+    # Cracks on continuous fronts are only indicative: HO/RB roll at month-end,
+    # CL ~10 days earlier, so for part of each month they price different months.
+    # The snapshot uses matched contracts instead (see matched_cracks).
+    p["ulsd_crack_cont"] = p["ulsd_fut"] * 42 - p["wti_fut"]
     w = p["wti_fut"].where(p["wti_fut"] > 0).dropna()   # drop Apr-2020 negative print
     p["wti_vol_20d"] = np.log(w).diff().rolling(20).std() * np.sqrt(252) * 100
     return p
 
 
+def matched_cracks(month=None):
+    """ULSD and 3-2-1 cracks ($/bbl) using HO, RB and CL contracts for the same
+    delivery month (default: WTI M1 on the last date)."""
+    ctr, _ = build_curve()
+    if month is None:
+        month = delivery(live_contracts(ctr, "CL", ctr.index[-1])[0])
+    ho, rb, cl = (ctr[contract(r, month.year, month.month)] for r in ("HO", "RB", "CL"))
+    tag = f"{MONTH_CODES[month.month - 1]}{month.year % 100}"
+    return ((ho * 42 - cl).dropna().rename(f"ULSD crack {tag}"),
+            ((2 * rb * 42 + ho * 42 - 3 * cl) / 3).dropna().rename(f"3-2-1 crack {tag}"))
+
+
 def build_weekly():
     w = pd.DataFrame({k: read_eia(v[0]) for k, v in WEEKLY.items()}).sort_index()
     w = w[w.index >= "2010-01-01"]
+    if ASOF is not None:
+        # WPSR for the week ending Friday is released the following Wednesday
+        # (Thursday in holiday weeks; not modelled).
+        w = w[w.index + pd.Timedelta(days=5) <= ASOF]
     w["net_imports"] = w["imports"] - w["exports"]
     for c in list(WEEKLY) + ["net_imports"]:
         w[f"{c}_chg"] = w[c].diff()
@@ -211,28 +274,41 @@ def build_weekly():
     return w
 
 
-def week_of_year(idx):
-    """Calendar week 1-52 by day of year (avoids ISO weeks that put early-January
-    dates into the previous year's week 52/53)."""
-    return np.minimum((idx.dayofyear - 1) // 7 + 1, 52)
+def same_date_hist(s, d, years=5):
+    """Values of `s` on the observation nearest the same calendar date in each of
+    the previous `years` years (within 3 days). This matches how EIA compares a
+    week with 'the same week' in the five-year average better than grouping by
+    week number, which can shift a year's observation into the neighbouring week."""
+    s = s.dropna()
+    out = []
+    for y in range(d.year - years, d.year):
+        target = pd.Timestamp(y, d.month, min(d.day, 28) if d.month == 2 else d.day)
+        i = s.index.get_indexer([target], method="nearest")[0]
+        if abs((s.index[i] - target).days) <= 3:
+            out.append(s.iloc[i])
+    return pd.Series(out, dtype=float)
 
 
 def seasonal(w, col, years=5):
-    """5-year range for each week-of-year, using the 5 full calendar years
-    before the latest observation's year."""
-    last_year = w.index[-1].year
-    hist = w.loc[(w.index.year >= last_year - years) & (w.index.year < last_year), col]
-    stats = hist.groupby(week_of_year(hist.index)).agg(["min", "max", "mean"])
-    cur = w.loc[w.index.year == last_year, col]
-    cur.index = week_of_year(cur.index)
+    """5-year min/max/mean for every Friday of the latest year (same-date
+    matching), plus the current year's values, both indexed by week number."""
+    year = w.index[-1].year
+    fridays = pd.date_range(f"{year}-01-01", f"{year}-12-31", freq="W-FRI")
+    rows = {}
+    for i, d in enumerate(fridays, start=1):
+        h = same_date_hist(w[col], d, years)
+        rows[i] = {"min": h.min(), "max": h.max(), "mean": h.mean()}
+    stats = pd.DataFrame(rows).T
+    cur = w.loc[w.index.year == year, col]
+    cur.index = [(d - fridays[0]).days // 7 + 1 for d in cur.index]
     return stats, cur
 
 
 def seasonal_position(w, col):
-    stats, cur = seasonal(w, col)
-    wk = cur.index[-1]
-    v = cur.iloc[-1]
-    return v, stats.loc[wk, "mean"], v - stats.loc[wk, "mean"], stats.loc[wk, "min"], stats.loc[wk, "max"]
+    """Latest value, 5-yr same-week mean, deviation, 5-yr min, 5-yr max."""
+    v, d = w[col].iloc[-1], w.index[-1]
+    h = same_date_hist(w[col], d)
+    return v, h.mean(), v - h.mean(), h.min(), h.max()
 
 
 # --- signals ----------------------------------------------------------------
@@ -357,7 +433,7 @@ def charts(p, w):
     ax2 = ax.twinx(); ax2.plot(ww.index, ww["utilisation"], color=C3, lw=1, label="Utilisation (%, rhs)")
     ax2.tick_params(colors=MUTED, labelsize=8); ax2.spines["top"].set_visible(False)
     h1, l1 = ax.get_legend_handles_labels(); h2, l2 = ax2.get_legend_handles_labels()
-    ax.legend(h1 + h2, l1 + l2, frameon=False, fontsize=7, loc="lower left")
+    ax.legend(h1 + h2, l1 + l2, frameon=True, framealpha=0.9, edgecolor="none", fontsize=7, loc="upper left", ncol=3)
     style(ax, "US production, refinery runs and utilisation", "mb/d")
     ax.xaxis.set_major_formatter(fmt); savefig(fig, "7_supply_refining")
 
@@ -387,6 +463,7 @@ def snapshot(p):
         (f"Brent M1–M2, {front_spread('BZ').name} ($/bbl)", front_spread("BZ")),
         (f"WTI Dec{y % 100}–Dec{(y + 1) % 100} ($/bbl)", p["wti_zz"]),
         (f"Brent Dec{y % 100}–Dec{(y + 1) % 100} ($/bbl)", p["brent_zz"]),
+        *[(f"NYMEX {c.name}, matched contracts ($/bbl)", c) for c in matched_cracks()],
         ("WTI 20-day realised vol (%, ann.)", p["wti_vol_20d"]),
     ]
     rows = []
@@ -421,6 +498,13 @@ def curve_structure():
     return pd.DataFrame({f"{k}_vs_M1": curve[k] - curve[k].dropna().iloc[0] for k in curve})
 
 
+def manual_asof(df):
+    """Keep rows published on or before ASOF (column `available`, YYYY-MM-DD)."""
+    if ASOF is None or "available" not in df:
+        return df
+    return df[pd.to_datetime(df["available"], errors="coerce") <= ASOF]
+
+
 def write_excel(p, w, sig):
     from openpyxl.drawing.image import Image as XLImage
     from openpyxl.styles import Font, PatternFill
@@ -439,9 +523,10 @@ def write_excel(p, w, sig):
         for name in ("OPEC", "China", "Event_Log"):
             src = ROOT / "data" / "manual" / f"{name.lower()}.csv"
             if src.exists():
-                pd.read_csv(src).to_excel(xw, sheet_name=name, index=False)
+                manual_asof(pd.read_csv(src)).to_excel(xw, sheet_name=name, index=False)
         ws = xw.sheets["Dashboard"]
-        ws["A1"] = f"Crude Oil Fundamental Monitor — EIA week ending {w.index[-1].date()}"
+        ws["A1"] = (f"Crude Oil Fundamental Monitor — as of {ASOF.date()} (Wednesday settle), "
+                    if ASOF is not None else "Crude Oil Fundamental Monitor — ") + f"EIA week ending {w.index[-1].date()}"
         ws["A1"].font = Font(size=14, bold=True)
         ws[f"A{4 + len(snap) + 1}"] = ("* continuous front-month: changes span contract rolls. "
                                        "M1–M2 changes use the same two contracts throughout.")
@@ -463,13 +548,19 @@ def write_excel(p, w, sig):
 
 
 def main():
+    global ASOF, OUT, CHARTS
     offline = "--offline" in sys.argv
+    if "--asof" in sys.argv:
+        ASOF = pd.Timestamp(sys.argv[sys.argv.index("--asof") + 1])
+        OUT = ROOT / "reports" / str(ASOF.date())
+        CHARTS = OUT / "charts"
     download(list(PRICES.values()) + [v[0] for v in WEEKLY.values()], offline)
     download_futures(offline)
-    OUT.mkdir(exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True)
     p, w = build_prices(), build_weekly()
     sig = signals(p, w)
-    archive_curve(*build_curve())
+    if ASOF is None:
+        archive_curve(*build_curve())
     published(p).to_csv(OUT / "prices_daily.csv"); w.to_csv(OUT / "wpsr_weekly.csv"); sig.to_csv(OUT / "signals.csv", index=False)
     charts(p, w)
     path = write_excel(p, w, sig)

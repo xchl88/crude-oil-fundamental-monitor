@@ -1,8 +1,8 @@
-indicator,period,value,unit,change,comment,source
-Crude imports,Aug-2026,8.93,mb/d,+6.2% m/m; -23% y/y,Highest in 4 months; still ~4 mb/d below pre-February seaborne levels; more Russian ESPO and Argentina cargoes,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/
-Domestic crude production,Aug-2026,4.34,mb/d,,,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/
-Refinery throughput,Aug-2026,13.91,mb/d,highest since March,Runs exceed available crude,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/
-Implied crude stock change,Aug-2026,-0.64,mb/d,draws in 3 of last 4 months,China is drawing on its ~1.23 bn bbl onshore stocks instead of bidding for seaborne crude,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/
-Refined product exports,Aug-2026,0.975,mb/d,+29% m/m (6.0 Mt),Export quotas eased; Sept expected >1 mb/d — adds product supply to tight Asian diesel market,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/
-Manufacturing PMI,Sep-2026,,index,,TO FILL: NBS release ~30 Sep,https://www.stats.gov.cn/
-Crude imports,Sep-2026,,mb/d,,TO FILL: customs release mid-Oct,http://www.customs.gov.cn/
+indicator,period,value,unit,change,comment,source,available
+Crude imports,Aug-2026,8.93,mb/d,+6.2% m/m; -23% y/y,Highest in 4 months; still far below pre-war seaborne levels,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/,2026-09-15
+Refinery throughput,Aug-2026,13.91,mb/d,highest since March,Runs exceed available crude,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/,2026-09-15
+Implied crude stock change,Aug-2026,-0.64,mb/d,draws in 3 of last 4 months,Drawing on ~1.23 bn bbl onshore stocks,https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/,2026-09-15
+Refined fuel exports (Russell/LSEG estimate),Aug-2026,0.975,mb/d,Sep expected >1 mb/d,Other sources give different totals (definitions differ),https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/,2026-09-15
+Manufacturing PMI (NBS),Sep-2026,50.1,index,+0.3 vs Aug (49.8),Back above 50; new orders 50.5,http://english.scio.gov.cn/pressroom/2026-09/30/content_118718778.html,2026-09-30
+Product export policy,Oct-2026,suspended,,,Refiners halted exports beyond HK/Macau until further notice after Golden Week (1-7 Oct); PetroChina cancelled most Oct gasoline/jet cargoes,https://www.marketscreener.com/news/chinese-refiners-suspend-oct-fuel-exports-petrochina-cancels-cargoes-sources-say-ce785ad3dd8bf226,2026-10-01
+Crude imports,Sep-2026,,mb/d,,TO FILL: customs release mid-Oct,http://www.customs.gov.cn/,

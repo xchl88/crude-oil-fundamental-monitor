@@ -10,6 +10,8 @@
 | brent_wti_fut_dec | BZ Dec – CL Dec | Daily | $/bbl | Matched delivery month |
 | M1–M2 | Two nearest live contracts | Daily | $/bbl | Fixed pair, so no roll distortion |
 | wti_vol_20d | log returns of `CL=F` | Daily | % ann. | 20-day realised |
+| Matched cracks | Yahoo `HOX26.NYM`, `RBX26.NYM`, `CLX26.NYM`, … | Daily | $/bbl | ULSD = HO×42 − CL; 3-2-1 = (2·RB×42 + HO×42 − 3·CL)/3, same delivery month |
+| ulsd_crack_cont | `HO=F`×42 − `CL=F` | Daily | $/bbl | Indicative only: the continuous fronts price different months for ~10 days each month |
 | crude_stocks | EIA `WCESTUS1` | Weekly (Fri) | kb | Commercial, excl. SPR |
 | cushing_stocks | EIA `W_EPC0_SAX_YCUOK_MBBL` | Weekly | kb | |
 | spr_stocks | EIA `WCSSTUS1` | Weekly | kb | |
@@ -21,6 +23,6 @@
 | utilisation | EIA `WPULEUS3` | Weekly | % | Operable capacity |
 | product_supplied | EIA `WRPUPUS2` | Weekly | kb/d | Total products, implied demand proxy |
 | *_chg / *_4wk | derived | Weekly | | W/w change; 4-week rolling mean |
-| 5-yr range | derived | Weekly | | Same calendar week, 5 full prior years |
+| 5-yr range | derived | Weekly | | Nearest observation to the same calendar date in each of the 5 prior years (±3 days) |
 | Historical WTI M1/M2 | EIA `RCLC1`, `RCLC2` | Daily | $/bbl | Discontinued Apr 2024; used only in `analysis.py` |
-| OPEC / China / events | `data/manual/*.csv` | Monthly / ad hoc | | Hand-entered with source URL per row |
+| OPEC / China / events | `data/manual/*.csv` | Monthly / ad hoc | | Hand-entered with source URL and `available` (publication date) per row; report builds include only rows available by the report date |

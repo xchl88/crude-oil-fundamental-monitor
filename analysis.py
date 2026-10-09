@@ -39,12 +39,11 @@ def load():
     # seasonal deviation of stocks: level minus same-week mean of prior 5 years
     for c in ("crude_stocks", "cushing_stocks"):
         full = P.read_eia(P.WEEKLY[c][0])   # full history, so 2010 has a 5-yr base
-        wk = P.week_of_year(full.index)
         dev = []
-        for d, v in full.items():
-            hist = full[(full.index.year >= d.year - 5) & (full.index.year < d.year) & (wk == P.week_of_year(pd.DatetimeIndex([d]))[0])]
+        for d, v in full[full.index >= "2009-12-01"].items():
+            hist = P.same_date_hist(full, d)
             dev.append(v - hist.mean() if len(hist) >= 3 else np.nan)
-        w[f"{c}_dev"] = pd.Series(dev, index=full.index).reindex(w.index) / 1e3   # million bbl
+        w[f"{c}_dev"] = pd.Series(dev, index=full.index[full.index >= "2009-12-01"]).reindex(w.index) / 1e3   # million bbl
     for c in ("crude_stocks_chg", "cushing_stocks_chg", "gasoline_stocks_chg", "distillate_stocks_chg"):
         w[c.replace("_chg", "_chg_mb")] = w[c] / 1e3
     return w.dropna(subset=["d_m1_m2", "cushing_stocks_dev"])
