@@ -1,0 +1,9 @@
+report_date,date,contract,filled_from,second_source,confirmed
+2026-10-21,2026-10-09,CLX26,Yahoo front-month series,,False
+2026-10-21,2026-10-12,CLX26,Yahoo front-month series,,False
+2026-10-21,2026-10-13,CLX26,Yahoo front-month series,,False
+2026-10-21,2026-10-14,CLX26,Yahoo front-month series,,False
+2026-10-21,2026-10-15,CLX26,Yahoo front-month series,"ANSA 16 Oct (WTI Nov 97.26, -0.72%) implies 97.97",True
+2026-10-21,2026-10-16,CLX26,Yahoo front-month series,CNBC/NBC (WTI +3.5% to 101.41),True
+2026-10-21,2026-10-19,CLX26,Yahoo front-month series,weekly recap (expiring Nov 103.66),True
+2026-10-21,2026-10-20,CLX26,Yahoo front-month series,Reuters 20 Oct (Nov expired at 101.79),True

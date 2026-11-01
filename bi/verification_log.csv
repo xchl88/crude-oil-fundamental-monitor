@@ -1,0 +1,15 @@
+report_date,item,value,sources,status,status_group
+2026-10-21,"WPSR crude, products, runs, demand",as above,EIA official highlights (`data/sources/wpsr_summary_2026-10-21.txt`) vs our EIA API pull,Match,Verified
+2026-10-21,5-year comparisons,"crude –3%, gasoline –5%, distillate –9%","EIA % vs our same-date calculation (–3.3%, –5.0%, –9.3%)",Match after rounding,Verified
+2026-10-21,Consensus for crude,"–0.8 mb (Reuters poll, 20 Oct); –0.1 mb (Investing.com)",Two polls,Consistent,Verified
+2026-10-21,Brent Dec / WTI Dec 21 Oct settles,108.82 / 97.15,Yahoo; CNBC and Investing.com (21 Oct),Match,Verified
+2026-10-21,20 Oct settles,Brent Dec 108.79; WTI Nov 101.79 (expiry); WTI Dec 97.82,"Yahoo (WTI Nov from the front-month series, `data/manual/futures_patch.csv`); Reuters (20 Oct)",Match,Verified
+2026-10-21,16 Oct settles,Brent Dec 109.86; WTI Nov 101.41,Yahoo; CNBC / NBC (16 Oct),Consistent,Verified
+2026-10-21,14 Oct reference settles,Brent Dec 106.06; WTI Dec 93.90,Yahoo only,Single source,Single source
+2026-10-21,Dec/Dec spreads,not shown,Dec27 contracts were missing from our download after 8–9 Oct: a pipeline change on 9 Oct stopped requesting them (Yahoo had them). Fixed on 1 Nov 2026 and `monitor.xlsx` rebuilt with the spreads. This row previously blamed Yahoo,Excluded,Excluded
+2026-10-21,Hormuz attacks,at least nine since 11 Oct; at least 18 in two weeks (Kpler),CNBC (16 Oct); Reuters (20 Oct),Secondary,Secondary sources only
+2026-10-21,Houthi claims on Yanbu and Shaybah,,CNBC (18 Oct); Reuters (20 Oct). Saudi authorities did not confirm,Unverified claims,Open
+2026-10-21,Iran–Pakistan mediation; Russian diesel cargoes,,Reuters via Yahoo Finance (20 Oct),Single source,Single source
+2026-10-21,Gulf of Mexico restart status,not found,No restart figures published by the cut-off,Gap,Open
+2026-10-21,Correction to the 15 Oct report,none needed,—,—,No correction needed
+2026-10-21,Excluded (after cut-off),22 Oct Houthi wave and Aramco's Dhahran evacuation; 23 Oct Brent settle $116.72; Shaybah drone debris (reported 23 Oct),Publication dates,Excluded,Excluded

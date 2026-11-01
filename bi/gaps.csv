@@ -1,0 +1,7 @@
+report_date,series_id,label,group,date,reason,explained
+2026-10-21,brent_spot,Brent spot (EIA),Brent/WTI prices,2026-08-31,UK bank holiday,True
+2026-10-21,brent_wti_fut_dec,"Brent–WTI futures, Dec",Brent/WTI prices,2026-09-07,US holiday (Labor Day),True
+2026-10-21,wti_zz,WTI Dec/Dec spread,Brent/WTI prices,2026-09-07,US holiday (Labor Day),True
+2026-10-21,brent_zz,Brent Dec/Dec spread,Brent/WTI prices,2026-09-07,US holiday (Labor Day),True
+2026-10-21,ulsd_crack_cont,ULSD crack (continuous),Brent/WTI prices,2026-09-07,US holiday (Labor Day),True
+2026-10-21,wti_vol_20d,WTI 20-day realised vol,Brent/WTI prices,2026-09-07,US holiday (Labor Day),True
