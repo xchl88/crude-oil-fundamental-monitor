@@ -1,0 +1,32 @@
+id,channel,brent_impact,wti_impact,materiality,rationale
+wpsr,inventory,neutral,mixed,high,"The crude draw and the 6.9 mb total commercial draw look supportive, but the higher crude imports and flat distillate stocks mean the headline overstates US tightening."
+ev_20260922_0,products,neutral,bearish,low,"Talk of a diesel export ban threatened USGC runs and therefore US crude demand, but this risk was overtaken by the 2 Oct decision to hold off."
+ev_20260923_1,policy,neutral,mixed,low,"Conflicting signals on a ban hit ULSD and refiner equities, but the effect on crude was ambiguous and has been superseded."
+ev_20260924_2,geopolitics,mixed,mixed,medium,"An intercepted Houthi strike set against reports of US-Iran talks created two-way headline risk, with Brent Nov falling on the deal talk."
+ev_20260926_3,geopolitics,bullish,bullish,medium,"The rejected Hormuz proposal pushes out any reopening and extends the Gulf supply constraint, which matters most for the Brent-linked market."
+ev_20260928_4,supply,bearish,neutral,medium,"Middle East exports are still well below pre-war levels but appear to be recovering at the margin, easing the seaborne crude bottleneck; the figure is single-sourced from Kpler."
+ev_20260929_5,supply,neutral,bearish,low,"The SPR exchange could add sour barrels on the USGC in Nov-Dec, but uptake is uncertain given the weak take-up of the June offer."
+ev_20260930_6,inventory,neutral,bearish,low,"The prior week's crude build came from lower runs while products drew, so it is now stale relative to the latest report."
+ev_20261001_7,products,bullish,bullish,high,"Halting Chinese product exports removes Asian fuel supply and lifts cracks, which coincided with the week's largest Brent rally."
+ev_20261002_8,policy,bearish,bearish,high,"The G7 crude and diesel release adds policy supply, and with the diesel ban shelved, WTI fell on the day while Brent was flat."
+ev_20261004_9,geopolitics,bullish,neutral,medium,"OPEC+ quotas are non-binding, so the meeting matters less than Iran's stance keeping Hormuz closed, which supports Brent risk premia."
+ev_20261006_10,macro,bullish,neutral,low,"The STEO price path sits above the curve, but it is a forecast whose inputs predate the G7 release rather than a balance shock."
+ev_20261007_11,inventory,bearish,bearish,high,"The surprise crude draw was export-led while Cushing built, the IEA is accelerating stock releases and the WTI prompt spread is near flat, so both benchmarks still fell on the week."
+op_0,demand,bearish,bearish,medium,A fifth straight OPEC cut to 2026 demand growth confirms that demand destruction is visible even in OPEC's numbers.
+op_1,demand,neutral,neutral,low,"OPEC's 2027 rebound treats 2026 losses as deferred demand, which has little bearing on the near-term balance."
+op_2,supply,neutral,neutral,low,A marginal revision to the call on OPEC+ crude does not bind while Gulf exports remain logistics-limited.
+op_3,supply,neutral,neutral,low,"The higher 2027 call implies a later OPEC+ output rebuild if transit normalises, which is outside this week's horizon."
+op_4,supply,neutral,neutral,low,The August OPEC-12 output change comes from an unverified third-party summary and is too uncertain to weigh.
+op_5,demand,bearish,bearish,medium,"The IEA sees sharp demand contraction, leaving a wide gap with OPEC that highlights how uncertain the demand side is."
+op_6,inventory,bullish,bullish,medium,"Large global stock draws point to a depleted buffer that supports structure, though the data are backward-looking."
+op_7,macro,bullish,neutral,low,The STEO's higher 4Q26 Brent forecast assumes constrained Middle East flows and excludes the G7 release.
+op_8,macro,neutral,neutral,low,The annual forecasts imply prices easing into 2027 but have no direct bearing on this week.
+op_9,supply,bearish,neutral,medium,Middle East shut-ins easing from August corroborates the gradual recovery in Gulf flows.
+op_10,policy,neutral,neutral,low,The September pause is dated and was superseded by the October meeting.
+op_11,policy,neutral,neutral,low,A second pause is irrelevant while actual output is running below targets.
+cn_0,demand,bullish,neutral,low,Chinese crude imports rose month on month but remain well below pre-war seaborne levels.
+cn_1,demand,bullish,neutral,low,"Higher Chinese refinery runs lift crude demand, but they are running ahead of available crude."
+cn_2,inventory,bullish,neutral,low,Ongoing draws on China's onshore stocks suggest import demand could recover once flows allow.
+cn_3,products,neutral,neutral,low,"This export estimate sets the baseline for the suspension's impact, but definitions differ across sources."
+cn_4,macro,bullish,bullish,low,China's PMI returning marginally above 50 is a mild positive for demand sentiment.
+cn_5,products,bullish,bullish,high,The indefinite export halt tightens Asian product balances and supports cracks and crude.

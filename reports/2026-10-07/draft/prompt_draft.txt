@@ -1,0 +1,278 @@
+Report date: Wednesday 2026-10-07. EIA data: week ending 2026-10-02. Prices: NYMEX settlements on 2026-10-07.
+
+FACT SHEET (one JSON object per line):
+{"id": "wti_m1", "label": "WTI Nov26 settle (M1)", "value": 88.28, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1_prev", "label": "WTI Nov26 settle one week earlier", "value": 90.42, "unit": "$/bbl", "as_of": "2026-09-30", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1_wchg", "label": "WTI Nov26 change over the week (same contract)", "value": -2.14, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation)", "value": 0.73, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2_wchg", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation), change over the week", "value": -1.27, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2_20260930", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation) on 2026-09-30", "value": 2.0, "unit": "$/bbl", "as_of": "2026-09-30", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2_20260923", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation) on 2026-09-23", "value": 2.65, "unit": "$/bbl", "as_of": "2026-09-23", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2_20260916", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation) on 2026-09-16", "value": 4.72, "unit": "$/bbl", "as_of": "2026-09-16", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_m1m2_20260909", "label": "WTI Nov26–Dec26 spread (M1–M2, >0 = backwardation) on 2026-09-09", "value": 3.55, "unit": "$/bbl", "as_of": "2026-09-09", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_zz", "label": "WTI Dec26–Dec27 spread", "value": 11.13, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "wti_zz_wchg", "label": "WTI Dec/Dec spread, change over the week", "value": -1.85, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1", "label": "Brent Dec26 settle (M1)", "value": 100.2, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1_prev", "label": "Brent Dec26 settle one week earlier", "value": 98.03, "unit": "$/bbl", "as_of": "2026-09-30", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1_wchg", "label": "Brent Dec26 change over the week (same contract)", "value": 2.17, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation)", "value": 2.75, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2_wchg", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation), change over the week", "value": -0.19, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2_20260930", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-30", "value": 2.94, "unit": "$/bbl", "as_of": "2026-09-30", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2_20260923", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-23", "value": 3.09, "unit": "$/bbl", "as_of": "2026-09-23", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2_20260916", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-16", "value": 4.07, "unit": "$/bbl", "as_of": "2026-09-16", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_m1m2_20260909", "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-09", "value": 3.5, "unit": "$/bbl", "as_of": "2026-09-09", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_zz", "label": "Brent Dec26–Dec27 spread", "value": 17.39, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_zz_wchg", "label": "Brent Dec/Dec spread, change over the week", "value": 0.61, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_wti_dec", "label": "Brent–WTI futures spread, matched Dec26 contracts", "value": 12.65, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_wti_dec_wchg", "label": "Brent–WTI matched Dec spread, change over the week", "value": 3.04, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_wti_dec_4w", "label": "Brent–WTI matched Dec spread on 2026-09-09", "value": 7.78, "unit": "$/bbl", "as_of": "2026-09-09", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_wti_dec_max", "label": "Highest Brent–WTI matched Dec spread since 2024-10-03 (on 2026-10-02)", "value": 12.82, "unit": "$/bbl", "as_of": "2026-10-02", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "ulsd_crack", "label": "NYMEX ULSD crack Nov26 (matched contracts)", "value": 105.8734, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "ulsd_crack_wchg", "label": "NYMEX ULSD crack Nov26, change over the week", "value": -0.6068, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "crack_321", "label": "NYMEX 3-2-1 crack Nov26 (matched contracts)", "value": 66.9954, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "crack_321_wchg", "label": "NYMEX 3-2-1 crack Nov26, change over the week", "value": 0.488, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "rbob_crack", "label": "NYMEX RBOB crack Nov26 (matched contracts)", "value": 47.5564, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "rbob_crack_wchg", "label": "NYMEX RBOB crack Nov26, change over the week", "value": 1.0354, "unit": "$/bbl", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "brent_spot", "label": "EIA Brent spot assessment (physical)", "value": 125.44, "unit": "$/bbl", "as_of": "2026-10-06", "source": "EIA"}
+{"id": "brent_spot_premium", "label": "EIA Brent spot minus Brent Dec26 futures on 2026-10-06", "value": 24.86, "unit": "$/bbl", "as_of": "2026-10-06", "source": "EIA; NYMEX via Yahoo Finance"}
+{"id": "wti_vol_20d", "label": "WTI 20-day realised volatility (annualised)", "value": 44.5573, "unit": "%", "as_of": "2026-10-07", "source": "NYMEX settlements via Yahoo Finance"}
+{"id": "crude_stocks", "label": "crude stocks", "value": 424.134, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_wchg", "label": "crude stocks, week-on-week change", "value": -3.186, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_4wk", "label": "crude stocks, 4-week average", "value": 425.3202, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_5yr_avg", "label": "crude stocks, 5-year average for this week", "value": 421.431, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_vs_5yr", "label": "crude stocks, difference from 5-year average", "value": 2.703, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_vs_5yr_pct", "label": "crude stocks, % difference from 5-year average", "value": 0.6414, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_chg_2w", "label": "crude stocks, change over the last 2 weeks", "value": -2.264, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_chg_3w", "label": "crude stocks, change over the last 3 weeks", "value": 0.705, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_chg_4w", "label": "crude stocks, change over the last 4 weeks", "value": 0.065, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "crude_stocks_streak", "label": "crude stocks: consecutive weekly draws", "value": 1.0, "unit": "weeks", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks", "label": "cushing stocks", "value": 24.745, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_wchg", "label": "cushing stocks, week-on-week change", "value": 0.444, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_4wk", "label": "cushing stocks, 4-week average", "value": 23.569, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_5yr_avg", "label": "cushing stocks, 5-year average for this week", "value": 26.2366, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_vs_5yr", "label": "cushing stocks, difference from 5-year average", "value": -1.4916, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_vs_5yr_pct", "label": "cushing stocks, % difference from 5-year average", "value": -5.6852, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_chg_2w", "label": "cushing stocks, change over the last 2 weeks", "value": 0.997, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_chg_3w", "label": "cushing stocks, change over the last 3 weeks", "value": 3.263, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_chg_4w", "label": "cushing stocks, change over the last 4 weeks", "value": 2.921, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "cushing_stocks_streak", "label": "cushing stocks: consecutive weekly builds", "value": 3.0, "unit": "weeks", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "spr_stocks", "label": "spr stocks", "value": 282.983, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "spr_stocks_wchg", "label": "spr stocks, week-on-week change", "value": -0.784, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "spr_stocks_4wk", "label": "spr stocks, 4-week average", "value": 284.0648, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks", "label": "gasoline stocks", "value": 204.744, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_wchg", "label": "gasoline stocks, week-on-week change", "value": 0.382, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_4wk", "label": "gasoline stocks, 4-week average", "value": 205.721, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_5yr_avg", "label": "gasoline stocks, 5-year average for this week", "value": 218.7, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_vs_5yr", "label": "gasoline stocks, difference from 5-year average", "value": -13.956, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_vs_5yr_pct", "label": "gasoline stocks, % difference from 5-year average", "value": -6.3813, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_chg_2w", "label": "gasoline stocks, change over the last 2 weeks", "value": -1.302, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_chg_3w", "label": "gasoline stocks, change over the last 3 weeks", "value": -2.988, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_chg_4w", "label": "gasoline stocks, change over the last 4 weeks", "value": -2.194, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "gasoline_stocks_streak", "label": "gasoline stocks: consecutive weekly builds", "value": 1.0, "unit": "weeks", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks", "label": "distillate stocks", "value": 105.138, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_wchg", "label": "distillate stocks, week-on-week change", "value": -0.042, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_4wk", "label": "distillate stocks, 4-week average", "value": 106.402, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_5yr_avg", "label": "distillate stocks, 5-year average for this week", "value": 119.8228, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_vs_5yr", "label": "distillate stocks, difference from 5-year average", "value": -14.6848, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_vs_5yr_pct", "label": "distillate stocks, % difference from 5-year average", "value": -12.2554, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_chg_2w", "label": "distillate stocks, change over the last 2 weeks", "value": -2.293, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_chg_3w", "label": "distillate stocks, change over the last 3 weeks", "value": -2.721, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_chg_4w", "label": "distillate stocks, change over the last 4 weeks", "value": -1.136, "unit": "mb", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "distillate_stocks_streak", "label": "distillate stocks: consecutive weekly draws", "value": 3.0, "unit": "weeks", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "production", "label": "production", "value": 13.979, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "production_wchg", "label": "production, week-on-week change", "value": 0.024, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "production_4wk", "label": "production, 4-week average", "value": 13.9543, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "imports", "label": "imports", "value": 6.84, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "imports_wchg", "label": "imports, week-on-week change", "value": 1.142, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "imports_4wk", "label": "imports, 4-week average", "value": 6.3682, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports", "label": "exports", "value": 4.765, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_wchg", "label": "exports, week-on-week change", "value": 1.195, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_4wk", "label": "exports, 4-week average", "value": 4.1117, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "refinery_runs", "label": "refinery runs", "value": 16.48, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "refinery_runs_wchg", "label": "refinery runs, week-on-week change", "value": 0.223, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "refinery_runs_4wk", "label": "refinery runs, 4-week average", "value": 16.7195, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "utilisation", "label": "utilisation", "value": 92.7, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "utilisation_wchg", "label": "utilisation, week-on-week change", "value": 0.2, "unit": "pp", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "utilisation_4wk", "label": "utilisation, 4-week average", "value": 94.0, "unit": "%", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "product_supplied", "label": "product supplied", "value": 20.396, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "product_supplied_wchg", "label": "product supplied, week-on-week change", "value": -1.104, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "product_supplied_4wk", "label": "product supplied, 4-week average", "value": 21.0502, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_03", "label": "US crude exports, average of weekly data in Mar 2026", "value": 3.7938, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_04", "label": "US crude exports, average of weekly data in Apr 2026", "value": 5.1525, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_05", "label": "US crude exports, average of weekly data in May 2026", "value": 5.232, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_06", "label": "US crude exports, average of weekly data in Jun 2026", "value": 4.461, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_07", "label": "US crude exports, average of weekly data in Jul 2026", "value": 3.4976, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_08", "label": "US crude exports, average of weekly data in Aug 2026", "value": 3.8497, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_09", "label": "US crude exports, average of weekly data in Sep 2026", "value": 3.7748, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+{"id": "exports_avg_2026_10", "label": "US crude exports, average of weekly data in Oct 2026", "value": 4.765, "unit": "mb/d", "as_of": "2026-10-02", "source": "EIA WPSR, week ending 2026-10-02"}
+
+SOURCES (one JSON object per line):
+{"id": "wpsr", "title": "EIA Weekly Petroleum Status Report highlights, week ending 2026-10-02", "date": "2026-10-07", "text": "[Retrieved from https://ir.eia.gov/wpsr/summary.txt on 2026-10-09 (release of 2026-10-07).]\nFor the week ending October 02, 2026, U.S. refineries processed 16.5 million barrels per day (b/d), up 223,000 b/d from the previous week, at 92.7% capacity utilization. Gasoline output averaged 9.3 million b/d, and distillate production increased to 5.3 million b/d. \n\nCrude oil imports increased 1.1 million b/d to 6.8 million b/d, and the four-week average of 6.4 million b/d is 4.3% above the year-ago level. Gasoline imports averaged 512,000 b/d; distillate imports averaged 118,000 b/d. \n\nCommercial crude oil inventories (excluding the Strategic Petroleum Reserve) decreased 3.2 million barrels to 424.1 million barrels, 1% above the five-year average. Gasoline inventories increased 0.4 million barrels, 6% below the five-year average. Distillate inventories remained unchanged, 12% below the five-year average. Propane/propylene inventories decreased 1.8 million barrels, 18% above the five-year average. Total commercial petroleum inventories decreased by 6.9 million barrels for the week.\n\nOver the past four weeks, total product supplied averaged 21.1 million b/d, up 0.7% year over year. The four-week average for gasoline product supplied decreased 0.3% year over year to 8.8 million b/d, while the four-week average for distillate product supplied decreased 1.6% to 3.8 million b/d. The four-week average for jet fuel product supplied increased 6.0% year over year."}
+{"id": "ev_20260922_0", "title": "Trump backs keeping diesel at home; Bessent studying full/partial ban", "date": "2026-09-22", "text": "Trump backs keeping diesel at home; Bessent studying full/partial ban. Channel: Products / US policy. Price reaction: nan. Interpretation: Ban would cut USGC runs -> weaker US crude demand"}
+{"id": "ev_20260923_1", "title": "Politico: 90-day diesel export ban plan; White House denies flat ban", "date": "2026-09-23", "text": "Politico: 90-day diesel export ban plan; White House denies flat ban. Channel: Products / US policy. Price reaction: Oct ULSD futures fell ~4% on the day (Reuters); refiner equities fell. Interpretation: Mixed policy signals"}
+{"id": "ev_20260924_2", "title": "Houthi missiles at Saudi Arabia (intercepted); reports of phased US-Iran deal talks (25 Sep)", "date": "2026-09-24", "text": "Houthi missiles at Saudi Arabia (intercepted); reports of phased US-Iran deal talks (25 Sep). Channel: Supply risk. Price reaction: Brent Nov -2.1% to $104.30 on 25 Sep. Interpretation: Two-way headline risk"}
+{"id": "ev_20260926_3", "title": "US rejects Iran proposal to reopen Hormuz within 7 days", "date": "2026-09-26", "text": "US rejects Iran proposal to reopen Hormuz within 7 days. Channel: Supply risk. Price reaction: Brent Nov ~+3% in Asia on 28 Sep. Interpretation: Diplomatic path pushed back"}
+{"id": "ev_20260928_4", "title": "Kpler: Middle East exports 12.8 mb/d in Sep (vs ~17 pre-war); Saudi ~5.4 mb/d; Trump 'very seriously' considering diesel ban", "date": "2026-09-28", "text": "Kpler: Middle East exports 12.8 mb/d in Sep (vs ~17 pre-war); Saudi ~5.4 mb/d; Trump 'very seriously' considering diesel ban. Channel: Supply / policy. Price reaction: nan. Interpretation: Crude bottleneck easing; product policy risk"}
+{"id": "ev_20260929_5", "title": "DOE solicits 40 mb SPR exchange (Nov-Dec delivery, Bryan Mound & Big Hill)", "date": "2026-09-29", "text": "DOE solicits 40 mb SPR exchange (Nov-Dec delivery, Bryan Mound & Big Hill). Channel: US supply. Price reaction: nan. Interpretation: More sour crude on USGC in Nov-Dec; uptake uncertain (June offer ~0.5 mb taken)"}
+{"id": "ev_20260930_6", "title": "EIA WPSR: crude +0.9 mb, distillate -2.3 mb, runs -0.55 mb/d; Brent Nov expires $103.5 vs Dec $98.0; China PMI 50.1", "date": "2026-09-30", "text": "EIA WPSR: crude +0.9 mb, distillate -2.3 mb, runs -0.55 mb/d; Brent Nov expires $103.5 vs Dec $98.0; China PMI 50.1. Channel: Inventory / structure. Price reaction: WTI Nov 90.42 (-1.74 w/w); Brent-WTI Dec $9.61. Interpretation: Crude build from lower runs; products drawing"}
+{"id": "ev_20261001_7", "title": "Chinese refiners suspend product exports beyond HK/Macau", "date": "2026-10-01", "text": "Chinese refiners suspend product exports beyond HK/Macau. Channel: Products / Asia. Price reaction: Brent Dec +4.4% (98.03 -> 102.31). Interpretation: Removes ~1 mb/d of Chinese fuel exports"}
+{"id": "ev_20261002_8", "title": "G7: up to 100 mb crude+diesel over 4 months, diesel front-loaded; Trump holds off diesel export ban", "date": "2026-10-02", "text": "G7: up to 100 mb crude+diesel over 4 months, diesel front-loaded; Trump holds off diesel export ban. Channel: Products / policy. Price reaction: WTI Nov -1.9%; Brent Dec flat. Interpretation: Policy supply aimed at diesel; ban risk removed"}
+{"id": "ev_20261004_9", "title": "OPEC+ keeps November targets unchanged; Iran says Hormuz stays closed until its conditions are met", "date": "2026-10-04", "text": "OPEC+ keeps November targets unchanged; Iran says Hormuz stays closed until its conditions are met. Channel: Supply / policy. Price reaction: Brent ~+0.7% in early Sunday trade. Interpretation: Quotas non-binding; no diplomatic progress"}
+{"id": "ev_20261006_10", "title": "EIA STEO: 4Q26 Brent $105 (+$14); Sep ME shut-ins 4.8 mb/d (Aug 5.8)", "date": "2026-10-06", "text": "EIA STEO: 4Q26 Brent $105 (+$14); Sep ME shut-ins 4.8 mb/d (Aug 5.8). Channel: Outlook. Price reaction: nan. Interpretation: EIA above the futures curve"}
+{"id": "ev_20261007_11", "title": "EIA WPSR: crude -3.2 mb vs +1.7 mb expected; Cushing +0.4 mb; exports 4.77 mb/d; IEA accelerates stock release, diesel priority; Gulf of Mexico storm threat", "date": "2026-10-07", "text": "EIA WPSR: crude -3.2 mb vs +1.7 mb expected; Cushing +0.4 mb; exports 4.77 mb/d; IEA accelerates stock release, diesel priority; Gulf of Mexico storm threat. Channel: Inventory / policy. Price reaction: Brent Dec 100.20 (-0.38); WTI Nov 88.28 (-1.16); WTI Nov-Dec $0.73. Interpretation: Export-led draw; Cushing building; WTI prompt structure near flat"}
+{"id": "op_0", "title": "OPEC: world demand growth 2026", "date": "2026-09-10", "text": "indicator: OPEC: world demand growth 2026; latest_report: MOMR Sep-2026; latest_value: 0.38; previous_report: MOMR Aug-2026; previous_value: 0.6; revision: -0.22; unit: mb/d y/y; market_meaning: Fifth straight cut; demand destruction visible even in OPEC's numbers; source_note: Sep: Reuters via Investing.com (primary PDF blocked); Aug: OPEC PDF"}
+{"id": "op_1", "title": "OPEC: world demand growth 2027", "date": "2026-09-10", "text": "indicator: OPEC: world demand growth 2027; latest_report: MOMR Sep-2026; latest_value: 2.36; previous_report: MOMR Aug-2026; previous_value: 2.2; revision: 0.16; unit: mb/d y/y; market_meaning: OPEC treats 2026 losses as deferred demand; source_note: Sep: OilPrice; Aug: OPEC PDF"}
+{"id": "op_2", "title": "OPEC: call on DoC crude 2026", "date": "2026-09-10", "text": "indicator: OPEC: call on DoC crude 2026; latest_report: MOMR Sep-2026; latest_value: 42.2; previous_report: MOMR Aug-2026; previous_value: 42.1; revision: 0.1; unit: mb/d; market_meaning: Quotas not the binding constraint while Gulf exports are logistics-limited; source_note: Sep: OilPrice; Aug: OPEC PDF"}
+{"id": "op_3", "title": "OPEC: call on DoC crude 2027", "date": "2026-09-10", "text": "indicator: OPEC: call on DoC crude 2027; latest_report: MOMR Sep-2026; latest_value: 43.9; previous_report: MOMR Aug-2026; previous_value: 43.6; revision: 0.3; unit: mb/d; market_meaning: Implies large 2027 OPEC+ output rebuild if transit normalises; source_note: Sep: OilPrice; Aug: OPEC PDF"}
+{"id": "op_4", "title": "OPEC-12 crude output Aug, m/m (secondary sources)", "date": "2026-09-10", "text": "indicator: OPEC-12 crude output Aug, m/m (secondary sources); latest_report: MOMR Sep-2026; latest_value: 0.346; unit: mb/d; market_meaning: Iraq +0.66, Iran -0.40 (third-party summary; UNVERIFIED); source_note: Peak Oil Barrel summary"}
+{"id": "op_5", "title": "IEA: world demand growth 2026", "date": "2026-09-16", "text": "indicator: IEA: world demand growth 2026; latest_report: OMR Sep-2026; latest_value: -2.5; unit: mb/d y/y; market_meaning: ~2.9 mb/d gap vs OPEC; release date approximate (mid-Sep); source_note: IEA"}
+{"id": "op_6", "title": "IEA: global observed stock change Aug-2026", "date": "2026-09-16", "text": "indicator: IEA: global observed stock change Aug-2026; latest_report: OMR Sep-2026; latest_value: -95; unit: mb; market_meaning: 507 mb drawn Feb-Aug (~2.8 mb/d); source_note: IEA"}
+{"id": "op_7", "title": "EIA STEO: Brent 4Q26", "date": "2026-10-06", "text": "indicator: EIA STEO: Brent 4Q26; latest_report: STEO Oct-2026 (6 Oct); latest_value: 105; previous_report: STEO Sep-2026; previous_value: 91.0; revision: 14; unit: $/bbl; market_meaning: Assumes ME flows constrained through 4Q26; inputs locked 1 Oct (excludes G7 release); source_note: EIA STEO PDF (primary)"}
+{"id": "op_8", "title": "EIA STEO: Brent 2026 / 2027 annual", "date": "2026-10-06", "text": "indicator: EIA STEO: Brent 2026 / 2027 annual; latest_report: STEO Oct-2026 (6 Oct); latest_value: 96 / 84; unit: $/bbl; source_note: EIA STEO PDF (primary)"}
+{"id": "op_9", "title": "EIA STEO: ME crude shut-ins", "date": "2026-10-06", "text": "indicator: EIA STEO: ME crude shut-ins; latest_report: STEO Oct-2026 (6 Oct); latest_value: 4.8; previous_report: Aug estimate; previous_value: 5.8; revision: -1.0; unit: mb/d (Sep); market_meaning: Peak 10.9 mb/d in May; 4Q26 assumption 4.5 mb/d; source_note: EIA STEO PDF (primary)"}
+{"id": "op_10", "title": "OPEC+ policy (7 voluntary-cut producers)", "date": "2026-09-06", "text": "indicator: OPEC+ policy (7 voluntary-cut producers); latest_report: 6 Sep meeting; latest_value: Oct targets = Sep levels; market_meaning: Pause after six months of increases; source_note: OPEC statement via reports"}
+{"id": "op_11", "title": "OPEC+ policy (7 voluntary-cut producers)", "date": "2026-10-04", "text": "indicator: OPEC+ policy (7 voluntary-cut producers); latest_report: 4 Oct meeting; latest_value: Nov targets = Sep levels; market_meaning: Second straight pause; next meeting 1 Nov; output below targets; source_note: CNBC, The National, Enerdata"}
+{"id": "cn_0", "title": "Crude imports", "date": "2026-09-15", "text": "indicator: Crude imports; period: Aug-2026; value: 8.93; unit: mb/d; change: +6.2% m/m; -23% y/y; comment: Highest in 4 months; still far below pre-war seaborne levels"}
+{"id": "cn_1", "title": "Refinery throughput", "date": "2026-09-15", "text": "indicator: Refinery throughput; period: Aug-2026; value: 13.91; unit: mb/d; change: highest since March; comment: Runs exceed available crude"}
+{"id": "cn_2", "title": "Implied crude stock change", "date": "2026-09-15", "text": "indicator: Implied crude stock change; period: Aug-2026; value: -0.64; unit: mb/d; change: draws in 3 of last 4 months; comment: Drawing on ~1.23 bn bbl onshore stocks"}
+{"id": "cn_3", "title": "Refined fuel exports (Russell/LSEG estimate)", "date": "2026-09-15", "text": "indicator: Refined fuel exports (Russell/LSEG estimate); period: Aug-2026; value: 0.975; unit: mb/d; change: Sep expected >1 mb/d; comment: Other sources give different totals (definitions differ)"}
+{"id": "cn_4", "title": "Manufacturing PMI (NBS)", "date": "2026-09-30", "text": "indicator: Manufacturing PMI (NBS); period: Sep-2026; value: 50.1; unit: index; change: +0.3 vs Aug (49.8); comment: Back above 50; new orders 50.5"}
+{"id": "cn_5", "title": "Product export policy", "date": "2026-10-01", "text": "indicator: Product export policy; period: Oct-2026; value: suspended; comment: Refiners halted exports beyond HK/Macau until further notice after Golden Week (1-7 Oct); PetroChina cancelled most Oct gasoline/jet cargoes"}
+{"id": "analysis", "title": "Our 2010–2024 study of inventories and WTI curve structure", "date": "2026-10-07", "text": "Weekly sample 2010-01-08 – 2024-03-29 (743 WPSR weeks). Prices taken at the Wednesday WPSR release date (prior trading day if a holiday). Inventory variables are **actual** weekly changes; without consensus forecasts these are not surprises, and the results are associations, not causal estimates.\n1. **Stock levels explain curve structure; weekly changes barely do.** Deviations of Cushing and total US crude stocks from seasonal norms explain 36% of the variation in WTI M1–M2, with Cushing the stronger variable: each 1 mb of Cushing below normal goes with ~$0.029/bbl more backwardation, and the tightest Cushing quartile was backwardated 82% of the time vs 1% in the loosest.\n2. **Weekly inventory changes have the expected sign but little explanatory power** (R² 0.03 for the spread, 0.03 for returns). A 1 mb Cushing draw goes with ~$0.031/bbl spread tightening; headline crude changes are not significant for the spread. Without consensus data, these are actual changes, not surprises.\n3. **No significant evidence that Cushing changes matter more when Cushing is tight** (interaction p = 0.19). The point estimate has the expected sign, but the data do not support claiming a regime difference.\n4. **Brent–WTI is wider when Cushing is tight and US exports are high** (2016+), consistent with WTI pricing as the export barrel that has to move overseas; this is an association.\n"}
+
+EVENT CLASSIFICATION (from the previous step):
+
+
+PREVIOUS BRIEF (2026-09-30), for the 'What changed since last week' section. Do not reuse its numbers unless they are also in the fact sheet:
+# Crude Oil Weekly — Wednesday 30 September 2026
+
+*EIA WPSR week ending 25 Sep (released 30 Sep) · NYMEX settlements 30 Sep · EIA spot to 29 Sep*
+*Reconstructed on 9 Oct 2026 using only data and news public by the 30 Sep settlement. Not published in real time.*
+
+**Bottom line:** The crude bottleneck is easing, but products are not. Middle East crude exports are recovering and the US is building crude, with Cushing up 2.8 mb in two weeks. Meanwhile US distillate stocks are 14% below the 5-year average and the November ULSD crack is $106/bbl. **The balance favours Brent over WTI and products over crude.** WTI's prompt structure is softening. Flat price stays two-way and driven by headlines, around Iran and a possible US diesel export ban.
+
+## 1. Market snapshot (Wednesday-to-Wednesday)
+
+| | 30 Sep | w/w | Comment |
+|---|---:|---:|---|
+| Brent Nov26 (expired today) | $103.53 | +0.45 | Expired **$5.50 over Dec**, a sign of acute prompt tightness |
+| Brent Dec26 (new front) | $98.03 | –0.09¹ | |
+| WTI Nov26 | $90.42 | –1.74¹ | |
+| Brent–WTI, matched Dec26 | $9.61 | +1.00 | $6.84 on 2 Sep; see §3 on headline vs matched spreads |
+| WTI Nov–Dec | +$2.00 | –0.65 | Prompt WTI backwardation easing |
+| Brent Dec–Jan | +$2.94 | –0.15 | |
+| WTI Dec26–Dec27 | +$12.98 | –3.05 | |
+| Brent Dec26–Dec27 | +$16.78 | –1.95 | Indicative: thin deferred contract |
+| ULSD crack, Nov26 matched | $106.48 | +4.03 | The tightest part of the barrel |
+| RBOB crack, Nov26 matched | $46.52 | –1.62 | |
+| 3-2-1 crack, Nov26 matched | $66.51 | +0.27 | |
+| EIA Brent spot (29 Sep) | $113.96 | –0.93 | ~$11.4 over Brent Nov futures |
+| WTI 20-day realised vol | 45% | –0.5 pp | |
+
+¹ The 23 Sep reference prices for Brent Dec and WTI Nov come from Yahoo only. The 30 Sep settles are confirmed by two sources.
+
+![Brent–WTI spread](charts/2_brent_wti_spread.png)
+
+## 2. Key fundamental developments
+
+**Crude supply is recovering, product supply is not.**
+- **Middle East exports:** Kpler (via Reuters, 28 Sep) puts September exports at **12.8 mb/d**, against roughly 17 mb/d before the war. Saudi exports are about **5.4 mb/d**, helped by ship-to-ship transfers off Oman after a pipeline outage.
+- **Hormuz transits:** CNBC (30 Sep) reports crude flows through Hormuz back near pre-war levels, but fuel shipments still constrained.
+- **Geopolitical risk:** the risk premium has not gone away. The US rejected Iran's offer on 26 Sep to reopen the strait within seven days, and Houthi missiles were fired at Saudi Arabia on 24 Sep (intercepted).
+
+**US weekly data (week to 25 Sep):**
+- **Crude stocks:** +0.9 mb to 427.3 mb, **2% above** the 5-year average, and +3.9 mb over two weeks.
+- **Cushing:** +0.55 mb to 24.3 mb, +2.8 mb in two weeks, though still ~1.4 mb below its seasonal norm.
+- **Refinery runs:** –554 kb/d to 16.3 mb/d (utilisation 92.5%), down 1.3 mb/d in three weeks. The crude build reflects lower runs during the maintenance season, not weak demand.
+- **Products:** gasoline fell 1.7 mb (**7% below** average) and distillate fell 2.3 mb (**14% below**, under its 5-year range). **Total commercial inventories fell 7.0 mb.**
+- **Demand:** 4-week product supplied was 20.8 mb/d (+2.1% y/y), with distillate demand +5.2% y/y and jet fuel +6.5% y/y.
+- **Read:** the US is long crude and short products.
+
+**US policy adds crude and puts product exports at risk.**
+- **SPR:** DOE (29 Sep) is offering up to **40 mb** of SPR crude on exchange for Nov–Dec delivery from Bryan Mound and Big Hill. Those are Texas Gulf Coast sites, so the barrels land where US crude is already long. Take-up is uncertain: a similar offer in June placed only ~0.5 mb. The SPR is at 283.8 mb, its lowest since 1982.
+- **Diesel exports — mixed signals:**
+  - 22 Sep: the President backed keeping diesel at home.
+  - 23 Sep: the White House denied Politico's report of a 90-day ban, and the Energy Secretary said a flat ban was not being considered.
+  - 28 Sep: the President said a ban was being considered "very seriously".
+  - A ban would cut Gulf Coast refinery runs and therefore US crude demand, which is bearish for WTI relative to Brent.
+
+**OPEC+ and agencies.**
+- **OPEC:** the September MOMR cut 2026 demand growth to **0.38 mb/d** (August: 0.60), its fifth straight cut, and raised 2027 growth to 2.36 mb/d. The call on DoC crude is 42.2 mb/d for 2026 and 43.9 mb/d for 2027.
+- **IEA:** expects 2026 demand to **fall 2.5 mb/d**. The OPEC–IEA gap of ~2.9 mb/d is itself a source of uncertainty.
+- **OPEC+:** the seven voluntary-cut producers meet on 4 Oct to set November targets. A rollover is expected because output is below quota.
+
+**China.**
+- **PMI:** the September official manufacturing PMI was **50.1**, back in expansion (August: 49.8).
+- **August crude balance:** imports were 8.93 mb/d (–23% y/y) and runs 13.91 mb/d, a stock draw of 0.64 mb/d.
+- **Fuel exports:** ~0.98 mb/d in August, expected above 1 mb/d in September. That eases Asian product tightness at the margin.
+
+## 3. Analysis: the Brent–WTI spread and WTI structure
+
+- **Headline vs matched spread.** Standard Chartered (30 Sep) quotes Brent–WTI at "over $12, widest since early May". Headline front-month quotes this week compare **Brent Nov at expiry with WTI Nov**, which builds in the $5.50 Brent Nov/Dec expiry squeeze. On **matched December contracts the spread is $9.61**: still widening (+$2.8 since 2 Sep), but the cleaner measure of relative value.
+- **Why the arbitrage isn't closing.**
+  - US crude exports averaged **3.77 mb/d in September**, below the pre-war Jan–Feb pace (~4.2) and far below Apr–May (~5.2), when a wide spread did pull barrels overseas.
+  - Standard Chartered cites high VLCC freight, the market pricing in US refinery run cuts, and diesel export-restriction risk.
+  - Our 2010–2024 study links a *wider* Brent–WTI with *higher* exports. Wide spreads combined with *low* exports point to a logistics constraint, not a normal pricing signal.
+- **WTI structure.**
+  - Our study finds Cushing's level relative to its seasonal norm is the strongest US-data correlate of WTI M1–M2 (2010–2024).
+  - Cushing has built 2.8 mb in two weeks while Nov–Dec narrowed $0.65 and Dec/Dec narrowed $3.05. The direction is consistent with that relationship.
+  - With SPR barrels due in Nov–Dec and Middle East crude recovering, the prompt WTI spread has **room to weaken further if Cushing keeps building**.
+
+## 4. Trading implications
+
+**Bullish**
+- Product tightness: US distillate is below its 5-year range and total US commercial stocks fell 7 mb.
+- Brent prompt premium: Nov expired $5.50 over Dec, and physical Brent is ~$11 over futures.
+- Iran escalation risk: the US rejected the reopening offer and the Houthis fired at Saudi Arabia.
+
+**Bearish**
+- Middle East crude exports are rebounding and Saudi exports have doubled.
+- US crude and Cushing are building, and 40 mb of SPR exchange crude is on offer.
+- OPEC has cut its demand forecast five times in a row and the IEA expects 2026 demand to fall.
+
+**Positioning view** (analytical, not a recommendation):
+- **Relative value over outright.** The balance supports **Brent over WTI** (matched-month), **diesel cracks**, and **a softer WTI prompt structure**.
+- **Main risk to the Brent–WTI view:** a clear White House decision against a diesel export ban could narrow the spread quickly (Standard Chartered).
+- **Flat price:** two-way. Realised vol of 45% argues for small sizing.
+
+## 5. Signposts for the week of 5 October
+
+| Date | Event | What would change the view |
+|---|---|---|
+| Sun 4 Oct | OPEC+ meeting (November targets) | An unexpected increase would be bearish |
+| Tue 6 Oct | EIA STEO; SPR exchange bids due | Change in EIA price path; SPR take-up |
+| Wed 7 Oct | EIA WPSR (week to 2 Oct) | Third Cushing build? Exports responding to the spread? Runs recovering from maintenance? |
+| Ongoing | US diesel export decision; US–Iran talks | A decided ban would widen Brent–WTI; ruling it out would narrow it |
+| 1–7 Oct | China's National Day holiday | October product export approvals |
+
+---
+
+### Verification log
+
+| Item | Value | Sources / check | Status |
+|---|---|---|---|
+| WPSR crude, products, runs, demand | as above | EIA official highlights (`data/sources/wpsr_summary_2026-09-30.txt`) vs our EIA API pull | Match |
+| 5-year comparisons | crude +2%, gasoline –7%, distillate –14% | EIA % vs our same-date calculation (+1.8%, –6.8%, –13.7%) | Match after rounding |
+| Brent Dec / WTI Nov 30 Sep settles | 98.03 / 90.42 | Yahoo, Investing.com, FinanceFeeds | Match |
+| Brent Nov expiry 30 Sep | 103.53 | Yahoo; FinanceFeeds $103.50 | Match (±0.03) |
+| 23 Sep Brent Dec / WTI Nov | 98.12 / 92.16 | Yahoo only | Single source |
+| Matched cracks | HO, RB, CL Nov26 contracts | Computed; the continuous-contract crack ($117.8) mixed Oct HO with Nov CL and was rejected | Method corrected |
+| Middle East exports 12.8 mb/d, Saudi 5.4 | | Kpler via Reuters (OilPrice, 28 Sep) | Single primary source |
+| Hormuz crude flows near pre-war | | CNBC 30 Sep (headline; article blocked) | Secondary |
+| Diesel ban timeline | 22, 23, 28 Sep | CNBC; Reuters via local outlets | Consistent |
+| SPR 40 mb exchange | 29 Sep | OGJ; DOE bulletins | Consistent |
+| OPEC Aug MOMR (0.6 / 2.2 / 42.1 / 43.6) | | OPEC primary PDF | Verified |
+| OPEC Sep MOMR (0.38 / 2.36 / 42.2 / 43.9) | | Reuters (Investing.com), OilPrice; primary blocked | Secondary |
+| China PMI 50.1 | | SCIO (official), FXStreet | Consistent |
+| Excluded (after cut-off) | China fuel-export suspension (1 Oct), G7 release (2 Oct), EIA STEO (6 Oct) | Publication dates | Excluded |
+
+Sources: [EIA WPSR](https://ir.eia.gov/wpsr/summary.txt) · [OilPrice/Reuters: ME exports](https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html) · [CNBC 30 Sep](https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html) · [Al Jazeera 28 Sep](https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz) · [The National 25 Sep](https://www.thenationalnews.com/business/energy/2026/09/25/oil-prices-waver-in-face-of-iran-war-truce-and-houthi-attacks/) · [CNBC 22 Sep](https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html) · [White House denial 23 Sep](https://wmbdradio.com/2026/09/23/white-house-denies-report-us-is-considering-a-diesel-export-ban/) · [CNBC 28 Sep](https://www.cnbc.com/2026/09/28/diesel-oil-trump-export-ban-fuel-prices.html) · [OGJ: SPR exchange](https://www.ogj.com/general-interest/government/news/55408696/us-seeks-to-release-another-40-million-bbl-from-spr-despite-low-inventory-levels) · [Rigzone 30 Sep](https://www.rigzone.com/news/wti_discount_to_brent_deepens-30-sep-2026-184736-article/) · [FinanceFeeds: Brent expiry](https://financefeeds.com/brent-crude-price-november-expiry-roll/) · [Investing.com](https://www.investing.com/commodities/brent-oil-historical-data) · [OPEC MOMR Aug](https://www.opec.org/assets/assetdb/momr-august-2026.pdf) · [Reuters: OPEC Sep MOMR](https://www.investing.com/news/commodities-news/opec-further-lowers-2026-global-oil-demand-growth-forecast-4895797) · [IEA OMR Sep](https://www.iea.org/reports/oil-market-report-september-2026) · [AGBI: OPEC+](https://www.agbi.com/oil-and-gas/2026/09/opec-likely-to-keep-output-targets-steady-at-sunday-meeting/) · [SCIO: China PMI](http://english.scio.gov.cn/pressroom/2026-09/30/content_118718778.html) · [Hydrocarbon Processing: China Aug](https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/)
+
+
+Write two documents.
+
+brief_en: a one-page English brief in Markdown titled "Crude Oil Weekly — <weekday> <date>" (the report date's weekday: Wednesday, or Thursday when a federal holiday delays the EIA release), with an as-of line, a bold bottom line (three to five sentences), then sections: 1. Market snapshot (a table of the key prices, spreads and cracks with week-on-week changes), 2. What changed since last week (a table comparing last week's read with what happened, if a previous brief is given), 3. Key fundamental developments, 4. Trading implications (Bullish, Bearish, and a positioning view marked as analytical, not a recommendation), 5. Signposts for next week (a table). Do not include a sources list or verification log; code adds those.
+
+summary_cn: a half-page summary in Traditional Chinese (Taiwan usage; volumes in 萬桶 and 萬桶/日), rewritten for a Chinese-speaking reader rather than translated: 核心判斷, 本週三大驅動因素, 對供需平衡的影響, 下週觀察重點.
+
+Tag every market number in both documents as instructed.

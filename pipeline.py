@@ -185,6 +185,11 @@ def build_curve():
     """Return (contracts table, curve on the last date). M1 is the nearest
     live delivery month (see live_contracts)."""
     ctr = pd.read_csv(RAW / "futures_contracts.csv", index_col=0, parse_dates=True)
+    patch = ROOT / "data" / "manual" / "futures_patch.csv"
+    if patch.exists():   # settles Yahoo stopped serving (contract delisted at expiry), each row sourced
+        for r in pd.read_csv(patch, parse_dates=["date"]).itertuples():
+            ctr.loc[r.date, r.contract] = r.settle
+        ctr = ctr.sort_index()
     if ASOF is not None:
         ctr = ctr[ctr.index <= ASOF]
     last = ctr.index[-1]
@@ -525,7 +530,7 @@ def write_excel(p, w, sig):
             if src.exists():
                 manual_asof(pd.read_csv(src)).to_excel(xw, sheet_name=name, index=False)
         ws = xw.sheets["Dashboard"]
-        ws["A1"] = (f"Crude Oil Fundamental Monitor — as of {ASOF.date()} (Wednesday settle), "
+        ws["A1"] = (f"Crude Oil Fundamental Monitor — as of {ASOF.date()} ({ASOF:%A} settle), "
                     if ASOF is not None else "Crude Oil Fundamental Monitor — ") + f"EIA week ending {w.index[-1].date()}"
         ws["A1"].font = Font(size=14, bold=True)
         ws[f"A{4 + len(snap) + 1}"] = ("* continuous front-month: changes span contract rolls. "

@@ -1,0 +1,303 @@
+[
+ {
+  "id": "wpsr",
+  "title": "EIA Weekly Petroleum Status Report highlights, week ending 2026-10-09",
+  "date": "2026-10-15",
+  "url": "https://ir.eia.gov/wpsr/summary.txt",
+  "text": "[Compiled on 2026-10-25 from EIA's archived WPSR tables for the week ending October 9, 2026 (released Thursday 2026-10-15, delayed by the Columbus Day holiday): https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/csv/table1.csv and table2.csv, saved alongside this file. EIA's archived highlights.pdf for this week carries the narrative text of the week ending September 11 (an EIA archive error), so no EIA narrative is quoted here; its tables match the figures below.]\n\nFor the week ending October 9, 2026, U.S. refineries processed 16,615 thousand b/d of crude oil, up 135 thousand b/d from the previous week, at 93.5% capacity utilization (92.7% the previous week).\n\nCrude oil imports decreased 791 thousand b/d to 6,049 thousand b/d. Crude oil exports decreased 195 thousand b/d to 4,570 thousand b/d. Domestic crude oil production decreased 300 thousand b/d to 13,679 thousand b/d.\n\nCommercial crude oil inventories (excluding the Strategic Petroleum Reserve) decreased 8.557 million barrels to 415.577 million barrels. Total motor gasoline inventories increased 3.518 million barrels to 208.262 million barrels. Distillate fuel oil inventories decreased 2.527 million barrels to 102.611 million barrels. Kerosene-type jet fuel inventories increased 0.291 million barrels to 42.795 million barrels. Propane/propylene inventories decreased 1.471 million barrels. The SPR was unchanged at 282.983 million barrels. Total stocks excluding the SPR decreased 13.384 million barrels.\n\nYear-ago comparison (week ending October 10, 2025): commercial crude 423.785 million barrels; gasoline 218.826; distillate 117.030; SPR 407.745.\n\nNot available from the archived tables: Cushing stocks (EIA API series W_EPC0_SAX_YCUOK_MBBL: 26.607 million barrels, +1.862), product supplied, and EIA's \"% vs five-year average\" statements.\n"
+ },
+ {
+  "id": "ev_20260926_0",
+  "title": "US rejects Iran proposal to reopen Hormuz within 7 days",
+  "date": "2026-09-26",
+  "url": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz",
+  "text": "US rejects Iran proposal to reopen Hormuz within 7 days. Channel: Supply risk. Price reaction: Brent Nov ~+3% in Asia on 28 Sep. Interpretation: Diplomatic path pushed back"
+ },
+ {
+  "id": "ev_20260928_1",
+  "title": "Kpler: Middle East exports 12.8 mb/d in Sep (vs ~17 pre-war); Saudi ~5.4 mb/d; Trump 'very seriously' considering diesel ban",
+  "date": "2026-09-28",
+  "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
+  "text": "Kpler: Middle East exports 12.8 mb/d in Sep (vs ~17 pre-war); Saudi ~5.4 mb/d; Trump 'very seriously' considering diesel ban. Channel: Supply / policy. Price reaction: nan. Interpretation: Crude bottleneck easing; product policy risk"
+ },
+ {
+  "id": "ev_20260929_2",
+  "title": "DOE solicits 40 mb SPR exchange (Nov-Dec delivery, Bryan Mound & Big Hill)",
+  "date": "2026-09-29",
+  "url": "https://www.ogj.com/general-interest/government/news/55408696/us-seeks-to-release-another-40-million-bbl-from-spr-despite-low-inventory-levels",
+  "text": "DOE solicits 40 mb SPR exchange (Nov-Dec delivery, Bryan Mound & Big Hill). Channel: US supply. Price reaction: nan. Interpretation: More sour crude on USGC in Nov-Dec; uptake uncertain (June offer ~0.5 mb taken)"
+ },
+ {
+  "id": "ev_20260930_3",
+  "title": "EIA WPSR: crude +0.9 mb, distillate -2.3 mb, runs -0.55 mb/d; Brent Nov expires $103.5 vs Dec $98.0; China PMI 50.1",
+  "date": "2026-09-30",
+  "url": "https://ir.eia.gov/wpsr/summary.txt",
+  "text": "EIA WPSR: crude +0.9 mb, distillate -2.3 mb, runs -0.55 mb/d; Brent Nov expires $103.5 vs Dec $98.0; China PMI 50.1. Channel: Inventory / structure. Price reaction: WTI Nov 90.42 (-1.74 w/w); Brent-WTI Dec $9.61. Interpretation: Crude build from lower runs; products drawing"
+ },
+ {
+  "id": "ev_20261001_4",
+  "title": "Chinese refiners suspend product exports beyond HK/Macau",
+  "date": "2026-10-01",
+  "url": "https://www.marketscreener.com/news/chinese-refiners-suspend-oct-fuel-exports-petrochina-cancels-cargoes-sources-say-ce785ad3dd8bf226",
+  "text": "Chinese refiners suspend product exports beyond HK/Macau. Channel: Products / Asia. Price reaction: Brent Dec +4.4% (98.03 -> 102.31). Interpretation: Removes ~1 mb/d of Chinese fuel exports"
+ },
+ {
+  "id": "ev_20261002_5",
+  "title": "G7: up to 100 mb crude+diesel over 4 months, diesel front-loaded; Trump holds off diesel export ban",
+  "date": "2026-10-02",
+  "url": "https://www.thenationalnews.com/business/energy/2026/10/02/g7-members-agree-to-release-100-million-barrels-of-diesel-and-other-reserves/",
+  "text": "G7: up to 100 mb crude+diesel over 4 months, diesel front-loaded; Trump holds off diesel export ban. Channel: Products / policy. Price reaction: WTI Nov -1.9%; Brent Dec flat. Interpretation: Policy supply aimed at diesel; ban risk removed"
+ },
+ {
+  "id": "ev_20261004_6",
+  "title": "OPEC+ keeps November targets unchanged; Iran says Hormuz stays closed until its conditions are met",
+  "date": "2026-10-04",
+  "url": "https://www.cnbc.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady.html",
+  "text": "OPEC+ keeps November targets unchanged; Iran says Hormuz stays closed until its conditions are met. Channel: Supply / policy. Price reaction: Brent ~+0.7% in early Sunday trade. Interpretation: Quotas non-binding; no diplomatic progress"
+ },
+ {
+  "id": "ev_20261006_7",
+  "title": "EIA STEO: 4Q26 Brent $105 (+$14); Sep ME shut-ins 4.8 mb/d (Aug 5.8)",
+  "date": "2026-10-06",
+  "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+  "text": "EIA STEO: 4Q26 Brent $105 (+$14); Sep ME shut-ins 4.8 mb/d (Aug 5.8). Channel: Outlook. Price reaction: nan. Interpretation: EIA above the futures curve"
+ },
+ {
+  "id": "ev_20261007_8",
+  "title": "EIA WPSR: crude -3.2 mb vs +1.7 mb expected; Cushing +0.4 mb; exports 4.77 mb/d; IEA accelerates stock release, diesel priority; Gulf of Mexico storm threat",
+  "date": "2026-10-07",
+  "url": "https://live.euronext.com/en/financial-news/oil-prices-settle-down-iea-agrees-accelerate-oil-stock-release",
+  "text": "EIA WPSR: crude -3.2 mb vs +1.7 mb expected; Cushing +0.4 mb; exports 4.77 mb/d; IEA accelerates stock release, diesel priority; Gulf of Mexico storm threat. Channel: Inventory / policy. Price reaction: Brent Dec 100.20 (-0.38); WTI Nov 88.28 (-1.16); WTI Nov-Dec $0.73. Interpretation: Export-led draw; Cushing building; WTI prompt structure near flat"
+ },
+ {
+  "id": "ev_20261008_9",
+  "title": "Hurricane Isaias: 62.9% of US Gulf of Mexico oil output (1.28 mb/d) shut in and 121 platforms evacuated; landfall expected late 9 Oct or early 10 Oct",
+  "date": "2026-10-08",
+  "url": "https://gcaptain.com/hurricane-isaias-shuts-down-nearly-two-thirds-of-gulf-oil-production/",
+  "text": "Hurricane Isaias: 62.9% of US Gulf of Mexico oil output (1.28 mb/d) shut in and 121 platforms evacuated; landfall expected late 9 Oct or early 10 Oct. Channel: Supply / US. Price reaction: Brent Dec 100.20 -> 104.28 (+4.1%); WTI Nov 88.28 -> 91.49 (+3.6%), together with Hormuz attacks. Interpretation: Temporary loss of US offshore crude; points to lower output and imports in the next WPSR"
+ },
+ {
+  "id": "ev_20261008_10",
+  "title": "Hormuz tanker attacks rising: a dozen attacks 28 Sep-2 Oct (US Navy-led information centre via Reuters); Kpler: Hormuz tanker flows on 6 Oct the lowest since late July",
+  "date": "2026-10-08",
+  "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
+  "text": "Hormuz tanker attacks rising: a dozen attacks 28 Sep-2 Oct (US Navy-led information centre via Reuters); Kpler: Hormuz tanker flows on 6 Oct the lowest since late July. Channel: Geopolitics / supply. Price reaction: Brent back above $105 intraday. Interpretation: Threat to the recovery in Gulf exports"
+ },
+ {
+  "id": "ev_20261009_11",
+  "title": "Trump cites 'productive discussions' with Iran and says no attack before the 3 Nov midterms; China to resume refined fuel exports after the 1-7 Oct holiday halt",
+  "date": "2026-10-09",
+  "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/09/oil-eases-fuel-export-resumption",
+  "text": "Trump cites 'productive discussions' with Iran and says no attack before the 3 Nov midterms; China to resume refined fuel exports after the 1-7 Oct holiday halt. Channel: Geopolitics / products. Price reaction: Brent Dec fell ~$1.2 intraday, then settled 104.72 (+0.44). Interpretation: Lowers near-term escalation risk; Chinese product exports return, but October quota (~3.7 Mt per industry sources) below September's ~4.4 Mt"
+ },
+ {
+  "id": "ev_20261014_12",
+  "title": "Container ship sinks in Hormuz after an attack, the third commercial ship sunk in the war (IMO); Kpler: Hormuz exports averaged 8.5 mb/d in the week to 12 Oct, nearly 40% below pre-war",
+  "date": "2026-10-14",
+  "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
+  "text": "Container ship sinks in Hormuz after an attack, the third commercial ship sunk in the war (IMO); Kpler: Hormuz exports averaged 8.5 mb/d in the week to 12 Oct, nearly 40% below pre-war. Channel: Geopolitics / supply. Price reaction: nan. Interpretation: Gulf export recovery reversing; Kpler's Hormuz measure is not comparable with the IEA's Gulf exports figure"
+ },
+ {
+  "id": "ev_20261015_13",
+  "title": "EIA WPSR (released Thu, Columbus Day delay): crude -8.6 mb vs -0.3 mb expected (Reuters poll); Cushing +1.9 mb; gasoline +3.5 mb; distillate -2.5 mb; production -300 kb/d; imports -791 kb/d",
+  "date": "2026-10-15",
+  "url": "https://boereport.com/2026/10/15/us-crude-stocks-fall-on-hurricane-production-shut-ins-distillate-inventories-fall-eia-says/",
+  "text": "EIA WPSR (released Thu, Columbus Day delay): crude -8.6 mb vs -0.3 mb expected (Reuters poll); Cushing +1.9 mb; gasoline +3.5 mb; distillate -2.5 mb; production -300 kb/d; imports -791 kb/d. Channel: Inventory. Price reaction: WTI Nov 97.97 (+2.88 on the day); Brent Dec 105.92 (-0.14). Interpretation: Storm-driven draw (lower imports and output) while Cushing keeps building"
+ },
+ {
+  "id": "op_0",
+  "title": "OPEC: world demand growth 2026",
+  "date": "2026-09-10",
+  "url": "https://www.investing.com/news/commodities-news/opec-further-lowers-2026-global-oil-demand-growth-forecast-4895797",
+  "text": "indicator: OPEC: world demand growth 2026; latest_report: MOMR Sep-2026; latest_value: 0.38; previous_report: MOMR Aug-2026; previous_value: 0.6; revision: -0.22; unit: mb/d y/y; market_meaning: Fifth straight cut; demand destruction visible even in OPEC's numbers; source_note: Sep: Reuters via Investing.com (primary PDF blocked); Aug: OPEC PDF"
+ },
+ {
+  "id": "op_1",
+  "title": "OPEC: world demand growth 2027",
+  "date": "2026-09-10",
+  "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Explode-Sixfold-in-2027.html",
+  "text": "indicator: OPEC: world demand growth 2027; latest_report: MOMR Sep-2026; latest_value: 2.36; previous_report: MOMR Aug-2026; previous_value: 2.2; revision: 0.16; unit: mb/d y/y; market_meaning: OPEC treats 2026 losses as deferred demand; source_note: Sep: OilPrice; Aug: OPEC PDF"
+ },
+ {
+  "id": "op_2",
+  "title": "OPEC: call on DoC crude 2026",
+  "date": "2026-09-10",
+  "url": "https://www.opec.org/assets/assetdb/momr-august-2026.pdf",
+  "text": "indicator: OPEC: call on DoC crude 2026; latest_report: MOMR Sep-2026; latest_value: 42.2; previous_report: MOMR Aug-2026; previous_value: 42.1; revision: 0.1; unit: mb/d; market_meaning: Quotas not the binding constraint while Gulf exports are logistics-limited; source_note: Sep: OilPrice; Aug: OPEC PDF"
+ },
+ {
+  "id": "op_3",
+  "title": "OPEC: call on DoC crude 2027",
+  "date": "2026-09-10",
+  "url": "https://www.opec.org/assets/assetdb/momr-august-2026.pdf",
+  "text": "indicator: OPEC: call on DoC crude 2027; latest_report: MOMR Sep-2026; latest_value: 43.9; previous_report: MOMR Aug-2026; previous_value: 43.6; revision: 0.3; unit: mb/d; market_meaning: Implies large 2027 OPEC+ output rebuild if transit normalises; source_note: Sep: OilPrice; Aug: OPEC PDF"
+ },
+ {
+  "id": "op_4",
+  "title": "OPEC-12 crude output Aug, m/m (secondary sources)",
+  "date": "2026-09-10",
+  "url": "https://peakoilbarrel.com/opec-monthly-oil-market-report-september-2026/",
+  "text": "indicator: OPEC-12 crude output Aug, m/m (secondary sources); latest_report: MOMR Sep-2026; latest_value: 0.346; unit: mb/d; market_meaning: Iraq +0.66, Iran -0.40 (third-party summary; UNVERIFIED); source_note: Peak Oil Barrel summary"
+ },
+ {
+  "id": "op_5",
+  "title": "IEA: world demand growth 2026",
+  "date": "2026-09-16",
+  "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+  "text": "indicator: IEA: world demand growth 2026; latest_report: OMR Sep-2026; latest_value: -2.5; unit: mb/d y/y; market_meaning: ~2.9 mb/d gap vs OPEC; release date approximate (mid-Sep); source_note: IEA"
+ },
+ {
+  "id": "op_6",
+  "title": "IEA: global observed stock change Aug-2026",
+  "date": "2026-09-16",
+  "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+  "text": "indicator: IEA: global observed stock change Aug-2026; latest_report: OMR Sep-2026; latest_value: -95; unit: mb; market_meaning: 507 mb drawn Feb-Aug (~2.8 mb/d); source_note: IEA"
+ },
+ {
+  "id": "op_7",
+  "title": "EIA STEO: Brent 4Q26",
+  "date": "2026-10-06",
+  "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+  "text": "indicator: EIA STEO: Brent 4Q26; latest_report: STEO Oct-2026 (6 Oct); latest_value: 105; previous_report: STEO Sep-2026; previous_value: 91.0; revision: 14; unit: $/bbl; market_meaning: Assumes ME flows constrained through 4Q26; inputs locked 1 Oct (excludes G7 release); source_note: EIA STEO PDF (primary)"
+ },
+ {
+  "id": "op_8",
+  "title": "EIA STEO: Brent 2026 / 2027 annual",
+  "date": "2026-10-06",
+  "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+  "text": "indicator: EIA STEO: Brent 2026 / 2027 annual; latest_report: STEO Oct-2026 (6 Oct); latest_value: 96 / 84; unit: $/bbl; source_note: EIA STEO PDF (primary)"
+ },
+ {
+  "id": "op_9",
+  "title": "EIA STEO: ME crude shut-ins",
+  "date": "2026-10-06",
+  "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+  "text": "indicator: EIA STEO: ME crude shut-ins; latest_report: STEO Oct-2026 (6 Oct); latest_value: 4.8; previous_report: Aug estimate; previous_value: 5.8; revision: -1.0; unit: mb/d (Sep); market_meaning: Peak 10.9 mb/d in May; 4Q26 assumption 4.5 mb/d; source_note: EIA STEO PDF (primary)"
+ },
+ {
+  "id": "op_10",
+  "title": "OPEC+ policy (7 voluntary-cut producers)",
+  "date": "2026-09-06",
+  "url": "https://energynews.pro/en/opec-weighs-maintaining-production-targets-for-october-2026",
+  "text": "indicator: OPEC+ policy (7 voluntary-cut producers); latest_report: 6 Sep meeting; latest_value: Oct targets = Sep levels; market_meaning: Pause after six months of increases; source_note: OPEC statement via reports"
+ },
+ {
+  "id": "op_11",
+  "title": "OPEC+ policy (7 voluntary-cut producers)",
+  "date": "2026-10-04",
+  "url": "https://www.cnbc.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady.html",
+  "text": "indicator: OPEC+ policy (7 voluntary-cut producers); latest_report: 4 Oct meeting; latest_value: Nov targets = Sep levels; market_meaning: Second straight pause; next meeting 1 Nov; output below targets; source_note: CNBC, The National, Enerdata"
+ },
+ {
+  "id": "op_12",
+  "title": "OPEC: world demand growth 2026",
+  "date": "2026-10-13",
+  "url": "https://www.thestar.com.my/news/world/2026/10/14/global-oil-demand-to-see-slower-growth-in-2026-opec-report",
+  "text": "indicator: OPEC: world demand growth 2026; latest_report: MOMR Oct-2026; latest_value: 0.2; previous_report: MOMR Sep-2026; previous_value: 0.38; unit: mb/d y/y; market_meaning: Sixth straight cut; OECD -0.2, non-OECD +0.4; source_note: Reuters via The Star (reported as 0.2 vs 0.4 rounded); Sep exact 0.38; MOMR published 13 Oct"
+ },
+ {
+  "id": "op_13",
+  "title": "OPEC: world demand growth 2027",
+  "date": "2026-10-13",
+  "url": "https://www.thestar.com.my/news/world/2026/10/14/global-oil-demand-to-see-slower-growth-in-2026-opec-report",
+  "text": "indicator: OPEC: world demand growth 2027; latest_report: MOMR Oct-2026; latest_value: 2.6; previous_report: MOMR Sep-2026; previous_value: 2.36; unit: mb/d y/y; market_meaning: OPEC still treats 2026 losses as deferred demand; source_note: Reuters via The Star (reported as 2.6 vs 2.4 rounded)"
+ },
+ {
+  "id": "op_14",
+  "title": "IEA: world demand growth 2026",
+  "date": "2026-10-14",
+  "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+  "text": "indicator: IEA: world demand growth 2026; latest_report: OMR Oct-2026; latest_value: -2.6; previous_report: OMR Sep-2026; previous_value: -2.5; revision: -0.1; unit: mb/d y/y; market_meaning: 4Q26 -2.5 mb/d y/y; diesel 25% of the 2026 drop; OPEC-IEA gap now ~2.8 mb/d; source_note: IEA report page (primary)"
+ },
+ {
+  "id": "op_15",
+  "title": "IEA: world supply Sep-2026",
+  "date": "2026-10-14",
+  "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+  "text": "indicator: IEA: world supply Sep-2026; latest_report: OMR Oct-2026; latest_value: 102.3; revision: +2.5 m/m; unit: mb/d; market_meaning: Gulf crude exports 13.9 mb/d in Sep, over 75% of pre-war; 2026 supply -5.8 mb/d to 100.7; source_note: IEA report page (primary)"
+ },
+ {
+  "id": "op_16",
+  "title": "IEA: global observed stock change Sep-2026",
+  "date": "2026-10-14",
+  "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+  "text": "indicator: IEA: global observed stock change Sep-2026; latest_report: OMR Oct-2026; latest_value: -10; previous_report: OMR Sep-2026 (Aug); previous_value: -95.0; unit: mb; market_meaning: On-land -113 mb (lowest since at least 2016) offset by oil on water +103 mb; source_note: IEA report page (primary)"
+ },
+ {
+  "id": "op_17",
+  "title": "IEA: global refinery runs Oct-2026",
+  "date": "2026-10-14",
+  "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+  "text": "indicator: IEA: global refinery runs Oct-2026; latest_report: OMR Oct-2026; latest_value: 81.3; unit: mb/d; market_meaning: Seasonal low, rising to 84.6 mb/d by year-end; source_note: IEA report page (primary)"
+ },
+ {
+  "id": "cn_0",
+  "title": "Crude imports",
+  "date": "2026-09-15",
+  "url": "https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/",
+  "text": "indicator: Crude imports; period: Aug-2026; value: 8.93; unit: mb/d; change: +6.2% m/m; -23% y/y; comment: Highest in 4 months; still far below pre-war seaborne levels"
+ },
+ {
+  "id": "cn_1",
+  "title": "Refinery throughput",
+  "date": "2026-09-15",
+  "url": "https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/",
+  "text": "indicator: Refinery throughput; period: Aug-2026; value: 13.91; unit: mb/d; change: highest since March; comment: Runs exceed available crude"
+ },
+ {
+  "id": "cn_2",
+  "title": "Implied crude stock change",
+  "date": "2026-09-15",
+  "url": "https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/",
+  "text": "indicator: Implied crude stock change; period: Aug-2026; value: -0.64; unit: mb/d; change: draws in 3 of last 4 months; comment: Drawing on ~1.23 bn bbl onshore stocks"
+ },
+ {
+  "id": "cn_3",
+  "title": "Refined fuel exports (Russell/LSEG estimate)",
+  "date": "2026-09-15",
+  "url": "https://www.hydrocarbonprocessing.com/news/2026/09/china-draws-on-crude-inventories-in-august-as-refinery-runs-rise/",
+  "text": "indicator: Refined fuel exports (Russell/LSEG estimate); period: Aug-2026; value: 0.975; unit: mb/d; change: Sep expected >1 mb/d; comment: Other sources give different totals (definitions differ)"
+ },
+ {
+  "id": "cn_4",
+  "title": "Manufacturing PMI (NBS)",
+  "date": "2026-09-30",
+  "url": "http://english.scio.gov.cn/pressroom/2026-09/30/content_118718778.html",
+  "text": "indicator: Manufacturing PMI (NBS); period: Sep-2026; value: 50.1; unit: index; change: +0.3 vs Aug (49.8); comment: Back above 50; new orders 50.5"
+ },
+ {
+  "id": "cn_5",
+  "title": "Product export policy",
+  "date": "2026-10-01",
+  "url": "https://www.marketscreener.com/news/chinese-refiners-suspend-oct-fuel-exports-petrochina-cancels-cargoes-sources-say-ce785ad3dd8bf226",
+  "text": "indicator: Product export policy; period: Oct-2026; value: suspended; comment: Refiners halted exports beyond HK/Macau until further notice after Golden Week (1-7 Oct); PetroChina cancelled most Oct gasoline/jet cargoes"
+ },
+ {
+  "id": "cn_6",
+  "title": "Crude imports",
+  "date": "2026-10-14",
+  "url": "https://www.bairdmaritime.com/amp/story/shipping/tankers/china-burns-through-crude-stockpiles-after-massive-import-drop",
+  "text": "indicator: Crude imports; period: Sep-2026; value: 9.03; unit: mb/d; change: +1.1% m/m (daily rate); -21.5% y/y; comment: 37.1 Mt; Jan-Sep 9.57 mb/d (-15.3% y/y); Vortexa seaborne 7.6 mb/d"
+ },
+ {
+  "id": "cn_7",
+  "title": "Onshore crude stock draw",
+  "date": "2026-10-14",
+  "url": "https://www.bairdmaritime.com/amp/story/shipping/tankers/china-burns-through-crude-stockpiles-after-massive-import-drop",
+  "text": "indicator: Onshore crude stock draw; period: Sep-2026; value: 57 / 47.5; unit: mb (Vortexa / Kpler); change: largest in each series; comment: Biggest monthly draws since 2019 (Vortexa) and 2017 (Kpler); tracking estimates, not official"
+ },
+ {
+  "id": "cn_8",
+  "title": "Product export policy",
+  "date": "2026-10-09",
+  "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/100926-china-resumes-clean-oil-product-exports-after-holiday-halt-oct-volumes-seen-lower-on-month",
+  "text": "indicator: Product export policy; period: Oct-2026; value: resumed; comment: Exports resumed after the 1-7 Oct halt; October volumes seen at least 3.5 Mt vs ~4.36 Mt in September (Platts); quota ~3.7 Mt per industry sources"
+ },
+ {
+  "id": "analysis",
+  "title": "Our 2010–2024 study of inventories and WTI curve structure",
+  "date": "2026-10-15",
+  "url": "output/analysis.md",
+  "text": "Weekly sample 2010-01-08 – 2024-03-29 (743 WPSR weeks). Prices taken at the Wednesday WPSR release date (prior trading day if a holiday). Inventory variables are **actual** weekly changes; without consensus forecasts these are not surprises, and the results are associations, not causal estimates.\n1. **Stock levels explain curve structure; weekly changes barely do.** Deviations of Cushing and total US crude stocks from seasonal norms explain 36% of the variation in WTI M1–M2, with Cushing the stronger variable: each 1 mb of Cushing below normal goes with ~$0.029/bbl more backwardation, and the tightest Cushing quartile was backwardated 82% of the time vs 1% in the loosest.\n2. **Weekly inventory changes have the expected sign but little explanatory power** (R² 0.03 for the spread, 0.03 for returns). A 1 mb Cushing draw goes with ~$0.031/bbl spread tightening; headline crude changes are not significant for the spread. Without consensus data, these are actual changes, not surprises.\n3. **No significant evidence that Cushing changes matter more when Cushing is tight** (interaction p = 0.19). The point estimate has the expected sign, but the data do not support claiming a regime difference.\n4. **Brent–WTI is wider when Cushing is tight and US exports are high** (2016+), consistent with WTI pricing as the export barrel that has to move overseas; this is an association.\n"
+ }
+]

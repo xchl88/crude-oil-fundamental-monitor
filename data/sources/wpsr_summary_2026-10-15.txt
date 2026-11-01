@@ -1,0 +1,11 @@
+[Compiled on 2026-10-25 from EIA's archived WPSR tables for the week ending October 9, 2026 (released Thursday 2026-10-15, delayed by the Columbus Day holiday): https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/csv/table1.csv and table2.csv, saved alongside this file. EIA's archived highlights.pdf for this week carries the narrative text of the week ending September 11 (an EIA archive error), so no EIA narrative is quoted here; its tables match the figures below.]
+
+For the week ending October 9, 2026, U.S. refineries processed 16,615 thousand b/d of crude oil, up 135 thousand b/d from the previous week, at 93.5% capacity utilization (92.7% the previous week).
+
+Crude oil imports decreased 791 thousand b/d to 6,049 thousand b/d. Crude oil exports decreased 195 thousand b/d to 4,570 thousand b/d. Domestic crude oil production decreased 300 thousand b/d to 13,679 thousand b/d.
+
+Commercial crude oil inventories (excluding the Strategic Petroleum Reserve) decreased 8.557 million barrels to 415.577 million barrels. Total motor gasoline inventories increased 3.518 million barrels to 208.262 million barrels. Distillate fuel oil inventories decreased 2.527 million barrels to 102.611 million barrels. Kerosene-type jet fuel inventories increased 0.291 million barrels to 42.795 million barrels. Propane/propylene inventories decreased 1.471 million barrels. The SPR was unchanged at 282.983 million barrels. Total stocks excluding the SPR decreased 13.384 million barrels.
+
+Year-ago comparison (week ending October 10, 2025): commercial crude 423.785 million barrels; gasoline 218.826; distillate 117.030; SPR 407.745.
+
+Not available from the archived tables: Cushing stocks (EIA API series W_EPC0_SAX_YCUOK_MBBL: 26.607 million barrels, +1.862), product supplied, and EIA's "% vs five-year average" statements.

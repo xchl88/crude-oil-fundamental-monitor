@@ -1,0 +1,11 @@
+indicator,latest,unit,signal,rationale
+Commercial crude stocks: w/w change,-8557.0,kb,Bullish,"draw; level -11,349 kb vs 5-yr avg for this week"
+Cushing stocks: w/w change,1862.0,kb,Bearish,"build; level +1,009 kb vs 5-yr avg for this week"
+Gasoline stocks: w/w change,3518.0,kb,Neutral,"build; level -9,695 kb vs 5-yr avg for this week"
+Distillate stocks: w/w change,-2527.0,kb,Bullish,"draw; level -14,256 kb vs 5-yr avg for this week"
+Refinery utilisation,93.5,%,Bullish,+0.8 pp w/w; 4-wk avg 93.2%
+Product supplied (4-wk avg),21076.75,kb/d,Bullish,+529 kb/d vs four weeks earlier
+Crude production (4-wk avg),13888.0,kb/d,Neutral,-11 kb/d vs four weeks earlier
+Net crude imports: w/w,-596.0,kb/d,Bullish,large swings are often timing (cargo arrivals) rather than fundamentals
+WTI M1–M2 spread (CLX26–CLZ26),1.47,$/bbl,Bullish,backwardation; +0.73 vs one week earlier (same contracts)
+Brent M1–M2 spread (BZZ26–BZF27),2.75,$/bbl,Bearish,backwardation; -0.57 vs one week earlier (same contracts)

@@ -1,0 +1,23 @@
+id,channel,brent_impact,wti_impact,materiality,rationale
+wpsr,inventory,neutral,mixed,high,"The modest crude build reflects a refinery run cut rather than weak crude supply, while gasoline and distillate draws and firm distillate demand tighten products, so the effect on WTI is two-way and Brent is largely unaffected."
+ev_20260910_0,demand,bearish,bearish,low,"A fifth consecutive OPEC demand cut confirms demand destruction, but it is a three-week-old, already-priced revision with no bearing on this week's balance."
+ev_20260922_1,policy,mixed,bearish,medium,"A US diesel export ban would likely cut Gulf Coast runs and US crude demand, which weighs on WTI, while tightening ex-US diesel markets and supporting Brent-linked cracks."
+ev_20260923_2,policy,mixed,bearish,medium,"Conflicting reports on a 90-day ban pushed ULSD and refiner equities lower, raising risk to US refinery crude demand, but the White House denial leaves the outcome uncertain."
+ev_20260924_3,geopolitics,mixed,mixed,medium,"Intercepted Houthi strikes and reports of US-Iran deal talks produced two-way headline risk, with the deal talk dominating the Brent Nov decline on 25 Sep."
+ev_20260926_4,geopolitics,bullish,bullish,high,"The US rejection of Iran's Hormuz reopening proposal pushed back the diplomatic path to restoring Gulf flows, and Brent rose in Asian trading in response."
+ev_20260928_5,supply,bearish,mixed,medium,"Middle East exports recovering toward but still well below pre-war levels ease the crude bottleneck for Brent, while renewed diesel-ban talk adds downside risk to US refinery crude demand."
+ev_20260929_6,supply,neutral,bearish,medium,"A large SPR exchange offer would add sour barrels on the Gulf Coast in Nov-Dec, but weak uptake of the June offer makes the actual volume uncertain."
+ev_20260930_7,inventory,mixed,bearish,high,"The expiring Brent Nov contract sits at a steep premium to Dec, showing prompt tightness, while a wide Brent-WTI Dec spread and a run-driven crude build leave WTI relatively weaker."
+op_0,demand,bearish,bearish,low,OPEC's 2026 demand downgrade signals visible demand destruction but is backward-looking for this week's balance.
+op_1,demand,bullish,bullish,low,"OPEC's higher 2027 growth forecast treats 2026 losses as deferred demand, which mainly supports deferred curve pricing rather than the prompt balance."
+op_2,supply,neutral,neutral,low,"A negligible revision to the call on OPEC+ crude is irrelevant while logistics, not quotas, constrain Gulf exports."
+op_3,supply,bearish,bearish,low,"A higher 2027 call implies a large OPEC+ output rebuild if transit normalises, which bears on the back of the curve rather than this week."
+op_4,supply,neutral,neutral,low,"The August OPEC output rise comes from an unverified third-party summary with offsetting Iraq gains and Iran losses, so it carries little weight."
+op_5,demand,bearish,bearish,medium,"The IEA's deep demand contraction, far below OPEC's estimate, highlights demand destruction and a wide forecast divergence."
+op_6,inventory,bullish,bullish,medium,"Large global stock draws through August underpin prompt tightness and backwardation, especially in Brent."
+op_7,policy,neutral,neutral,low,The OPEC+ pause in target increases is largely moot while Gulf exports are logistics-limited.
+cn_0,demand,bullish,neutral,low,"China's crude imports rose for the month but remain well below year-ago levels, giving mild support to seaborne Brent-linked demand."
+cn_1,demand,bullish,neutral,low,"Higher Chinese refinery runs lift crude demand, though they are currently being supplied partly from onshore stocks."
+cn_2,inventory,mixed,neutral,low,China's ongoing stock draws show its buffer is cushioning seaborne demand now but may later require restocking imports.
+cn_3,products,bearish,neutral,low,"Rising Chinese product exports could ease global diesel tightness at the margin, but estimates vary by source and definition."
+cn_4,macro,bullish,bullish,low,China's manufacturing PMI back above 50 is a mildly supportive macro signal for demand sentiment.

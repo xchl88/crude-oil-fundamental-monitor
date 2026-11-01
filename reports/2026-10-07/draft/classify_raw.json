@@ -1,0 +1,260 @@
+{
+ "events": [
+  {
+   "id": "wpsr",
+   "channel": "inventory",
+   "brent_impact": "neutral",
+   "wti_impact": "mixed",
+   "materiality": "high",
+   "rationale": "The crude draw and the 6.9 mb total commercial draw look supportive, but the higher crude imports and flat distillate stocks mean the headline overstates US tightening."
+  },
+  {
+   "id": "ev_20260922_0",
+   "channel": "products",
+   "brent_impact": "neutral",
+   "wti_impact": "bearish",
+   "materiality": "low",
+   "rationale": "Talk of a diesel export ban threatened USGC runs and therefore US crude demand, but this risk was overtaken by the 2 Oct decision to hold off."
+  },
+  {
+   "id": "ev_20260923_1",
+   "channel": "policy",
+   "brent_impact": "neutral",
+   "wti_impact": "mixed",
+   "materiality": "low",
+   "rationale": "Conflicting signals on a ban hit ULSD and refiner equities, but the effect on crude was ambiguous and has been superseded."
+  },
+  {
+   "id": "ev_20260924_2",
+   "channel": "geopolitics",
+   "brent_impact": "mixed",
+   "wti_impact": "mixed",
+   "materiality": "medium",
+   "rationale": "An intercepted Houthi strike set against reports of US-Iran talks created two-way headline risk, with Brent Nov falling on the deal talk."
+  },
+  {
+   "id": "ev_20260926_3",
+   "channel": "geopolitics",
+   "brent_impact": "bullish",
+   "wti_impact": "bullish",
+   "materiality": "medium",
+   "rationale": "The rejected Hormuz proposal pushes out any reopening and extends the Gulf supply constraint, which matters most for the Brent-linked market."
+  },
+  {
+   "id": "ev_20260928_4",
+   "channel": "supply",
+   "brent_impact": "bearish",
+   "wti_impact": "neutral",
+   "materiality": "medium",
+   "rationale": "Middle East exports are still well below pre-war levels but appear to be recovering at the margin, easing the seaborne crude bottleneck; the figure is single-sourced from Kpler."
+  },
+  {
+   "id": "ev_20260929_5",
+   "channel": "supply",
+   "brent_impact": "neutral",
+   "wti_impact": "bearish",
+   "materiality": "low",
+   "rationale": "The SPR exchange could add sour barrels on the USGC in Nov-Dec, but uptake is uncertain given the weak take-up of the June offer."
+  },
+  {
+   "id": "ev_20260930_6",
+   "channel": "inventory",
+   "brent_impact": "neutral",
+   "wti_impact": "bearish",
+   "materiality": "low",
+   "rationale": "The prior week's crude build came from lower runs while products drew, so it is now stale relative to the latest report."
+  },
+  {
+   "id": "ev_20261001_7",
+   "channel": "products",
+   "brent_impact": "bullish",
+   "wti_impact": "bullish",
+   "materiality": "high",
+   "rationale": "Halting Chinese product exports removes Asian fuel supply and lifts cracks, which coincided with the week's largest Brent rally."
+  },
+  {
+   "id": "ev_20261002_8",
+   "channel": "policy",
+   "brent_impact": "bearish",
+   "wti_impact": "bearish",
+   "materiality": "high",
+   "rationale": "The G7 crude and diesel release adds policy supply, and with the diesel ban shelved, WTI fell on the day while Brent was flat."
+  },
+  {
+   "id": "ev_20261004_9",
+   "channel": "geopolitics",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "medium",
+   "rationale": "OPEC+ quotas are non-binding, so the meeting matters less than Iran's stance keeping Hormuz closed, which supports Brent risk premia."
+  },
+  {
+   "id": "ev_20261006_10",
+   "channel": "macro",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The STEO price path sits above the curve, but it is a forecast whose inputs predate the G7 release rather than a balance shock."
+  },
+  {
+   "id": "ev_20261007_11",
+   "channel": "inventory",
+   "brent_impact": "bearish",
+   "wti_impact": "bearish",
+   "materiality": "high",
+   "rationale": "The surprise crude draw was export-led while Cushing built, the IEA is accelerating stock releases and the WTI prompt spread is near flat, so both benchmarks still fell on the week."
+  },
+  {
+   "id": "op_0",
+   "channel": "demand",
+   "brent_impact": "bearish",
+   "wti_impact": "bearish",
+   "materiality": "medium",
+   "rationale": "A fifth straight OPEC cut to 2026 demand growth confirms that demand destruction is visible even in OPEC's numbers."
+  },
+  {
+   "id": "op_1",
+   "channel": "demand",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "OPEC's 2027 rebound treats 2026 losses as deferred demand, which has little bearing on the near-term balance."
+  },
+  {
+   "id": "op_2",
+   "channel": "supply",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "A marginal revision to the call on OPEC+ crude does not bind while Gulf exports remain logistics-limited."
+  },
+  {
+   "id": "op_3",
+   "channel": "supply",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The higher 2027 call implies a later OPEC+ output rebuild if transit normalises, which is outside this week's horizon."
+  },
+  {
+   "id": "op_4",
+   "channel": "supply",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The August OPEC-12 output change comes from an unverified third-party summary and is too uncertain to weigh."
+  },
+  {
+   "id": "op_5",
+   "channel": "demand",
+   "brent_impact": "bearish",
+   "wti_impact": "bearish",
+   "materiality": "medium",
+   "rationale": "The IEA sees sharp demand contraction, leaving a wide gap with OPEC that highlights how uncertain the demand side is."
+  },
+  {
+   "id": "op_6",
+   "channel": "inventory",
+   "brent_impact": "bullish",
+   "wti_impact": "bullish",
+   "materiality": "medium",
+   "rationale": "Large global stock draws point to a depleted buffer that supports structure, though the data are backward-looking."
+  },
+  {
+   "id": "op_7",
+   "channel": "macro",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The STEO's higher 4Q26 Brent forecast assumes constrained Middle East flows and excludes the G7 release."
+  },
+  {
+   "id": "op_8",
+   "channel": "macro",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The annual forecasts imply prices easing into 2027 but have no direct bearing on this week."
+  },
+  {
+   "id": "op_9",
+   "channel": "supply",
+   "brent_impact": "bearish",
+   "wti_impact": "neutral",
+   "materiality": "medium",
+   "rationale": "Middle East shut-ins easing from August corroborates the gradual recovery in Gulf flows."
+  },
+  {
+   "id": "op_10",
+   "channel": "policy",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "The September pause is dated and was superseded by the October meeting."
+  },
+  {
+   "id": "op_11",
+   "channel": "policy",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "A second pause is irrelevant while actual output is running below targets."
+  },
+  {
+   "id": "cn_0",
+   "channel": "demand",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "Chinese crude imports rose month on month but remain well below pre-war seaborne levels."
+  },
+  {
+   "id": "cn_1",
+   "channel": "demand",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "Higher Chinese refinery runs lift crude demand, but they are running ahead of available crude."
+  },
+  {
+   "id": "cn_2",
+   "channel": "inventory",
+   "brent_impact": "bullish",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "Ongoing draws on China's onshore stocks suggest import demand could recover once flows allow."
+  },
+  {
+   "id": "cn_3",
+   "channel": "products",
+   "brent_impact": "neutral",
+   "wti_impact": "neutral",
+   "materiality": "low",
+   "rationale": "This export estimate sets the baseline for the suspension's impact, but definitions differ across sources."
+  },
+  {
+   "id": "cn_4",
+   "channel": "macro",
+   "brent_impact": "bullish",
+   "wti_impact": "bullish",
+   "materiality": "low",
+   "rationale": "China's PMI returning marginally above 50 is a mild positive for demand sentiment."
+  },
+  {
+   "id": "cn_5",
+   "channel": "products",
+   "brent_impact": "bullish",
+   "wti_impact": "bullish",
+   "materiality": "high",
+   "rationale": "The indefinite export halt tightens Asian product balances and supports cracks and crude."
+  }
+ ],
+ "usage": {
+  "model": "claude-opus-5-5",
+  "request_id": "req_011CgPRaTZpDg8f9WEWHBFcZ",
+  "input_tokens": 5883,
+  "output_tokens": 2901,
+  "cache_read_input_tokens": 0,
+  "cost_usd": 0.0816
+ }
+}

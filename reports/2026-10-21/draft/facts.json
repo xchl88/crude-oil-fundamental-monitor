@@ -1,0 +1,802 @@
+[
+ {
+  "id": "wti_m1",
+  "label": "WTI Dec26 settle (M1)",
+  "value": 97.15,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1_prev",
+  "label": "WTI Dec26 settle one week earlier",
+  "value": 93.9,
+  "unit": "$/bbl",
+  "as_of": "2026-10-14",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1_wchg",
+  "label": "WTI Dec26 change over the week (same contract)",
+  "value": 3.25,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation)",
+  "value": 1.69,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2_wchg",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation), change over the week",
+  "value": 0.62,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2_20261014",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-10-14",
+  "value": 1.07,
+  "unit": "$/bbl",
+  "as_of": "2026-10-14",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2_20261007",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-10-07",
+  "value": 0.71,
+  "unit": "$/bbl",
+  "as_of": "2026-10-07",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2_20260930",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-30",
+  "value": 1.69,
+  "unit": "$/bbl",
+  "as_of": "2026-09-30",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "wti_m1m2_20260923",
+  "label": "WTI Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-23",
+  "value": 2.42,
+  "unit": "$/bbl",
+  "as_of": "2026-09-23",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1",
+  "label": "Brent Dec26 settle (M1)",
+  "value": 108.82,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1_prev",
+  "label": "Brent Dec26 settle one week earlier",
+  "value": 106.06,
+  "unit": "$/bbl",
+  "as_of": "2026-10-14",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1_wchg",
+  "label": "Brent Dec26 change over the week (same contract)",
+  "value": 2.76,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation)",
+  "value": 3.75,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2_wchg",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation), change over the week",
+  "value": 1.09,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2_20261014",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-10-14",
+  "value": 2.66,
+  "unit": "$/bbl",
+  "as_of": "2026-10-14",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2_20261007",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-10-07",
+  "value": 2.75,
+  "unit": "$/bbl",
+  "as_of": "2026-10-07",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2_20260930",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-30",
+  "value": 2.94,
+  "unit": "$/bbl",
+  "as_of": "2026-09-30",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_m1m2_20260923",
+  "label": "Brent Dec26–Jan27 spread (M1–M2, >0 = backwardation) on 2026-09-23",
+  "value": 3.09,
+  "unit": "$/bbl",
+  "as_of": "2026-09-23",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_wti_dec",
+  "label": "Brent–WTI futures spread, matched Dec26 contracts",
+  "value": 11.67,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_wti_dec_wchg",
+  "label": "Brent–WTI matched Dec spread, change over the week",
+  "value": -0.49,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_wti_dec_4w",
+  "label": "Brent–WTI matched Dec spread on 2026-09-23",
+  "value": 8.61,
+  "unit": "$/bbl",
+  "as_of": "2026-09-23",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_wti_dec_max",
+  "label": "Highest Brent–WTI matched Dec spread since 2024-10-03 (on 2026-10-12)",
+  "value": 13.79,
+  "unit": "$/bbl",
+  "as_of": "2026-10-12",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "ulsd_crack",
+  "label": "NYMEX ULSD crack Dec26 (matched contracts)",
+  "value": 95.0924,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "ulsd_crack_wchg",
+  "label": "NYMEX ULSD crack Dec26, change over the week",
+  "value": -10.5412,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "crack_321",
+  "label": "NYMEX 3-2-1 crack Dec26 (matched contracts)",
+  "value": 52.0228,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "crack_321_wchg",
+  "label": "NYMEX 3-2-1 crack Dec26, change over the week",
+  "value": -8.5644,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "rbob_crack",
+  "label": "NYMEX RBOB crack Dec26 (matched contracts)",
+  "value": 30.488,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "rbob_crack_wchg",
+  "label": "NYMEX RBOB crack Dec26, change over the week",
+  "value": -7.576,
+  "unit": "$/bbl",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "brent_spot",
+  "label": "EIA Brent spot assessment (physical)",
+  "value": 115.22,
+  "unit": "$/bbl",
+  "as_of": "2026-10-20",
+  "source": "EIA"
+ },
+ {
+  "id": "brent_spot_premium",
+  "label": "EIA Brent spot minus Brent Dec26 futures on 2026-10-20",
+  "value": 6.43,
+  "unit": "$/bbl",
+  "as_of": "2026-10-20",
+  "source": "EIA; NYMEX via Yahoo Finance"
+ },
+ {
+  "id": "wti_vol_20d",
+  "label": "WTI 20-day realised volatility (annualised)",
+  "value": 38.1737,
+  "unit": "%",
+  "as_of": "2026-10-21",
+  "source": "NYMEX settlements via Yahoo Finance"
+ },
+ {
+  "id": "crude_stocks",
+  "label": "crude stocks",
+  "value": 412.517,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_wchg",
+  "label": "crude stocks, week-on-week change",
+  "value": -3.06,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_4wk",
+  "label": "crude stocks, 4-week average",
+  "value": 419.887,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_5yr_avg",
+  "label": "crude stocks, 5-year average for this week",
+  "value": 426.4994,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_vs_5yr",
+  "label": "crude stocks, difference from 5-year average",
+  "value": -13.9824,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_vs_5yr_pct",
+  "label": "crude stocks, % difference from 5-year average",
+  "value": -3.2784,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_chg_2w",
+  "label": "crude stocks, change over the last 2 weeks",
+  "value": -11.617,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_chg_3w",
+  "label": "crude stocks, change over the last 3 weeks",
+  "value": -14.803,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_chg_4w",
+  "label": "crude stocks, change over the last 4 weeks",
+  "value": -13.881,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "crude_stocks_streak",
+  "label": "crude stocks: consecutive weekly draws",
+  "value": 3.0,
+  "unit": "weeks",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks",
+  "label": "cushing stocks",
+  "value": 27.594,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_wchg",
+  "label": "cushing stocks, week-on-week change",
+  "value": 0.987,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_4wk",
+  "label": "cushing stocks, 4-week average",
+  "value": 25.8117,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_5yr_avg",
+  "label": "cushing stocks, 5-year average for this week",
+  "value": 24.8762,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_vs_5yr",
+  "label": "cushing stocks, difference from 5-year average",
+  "value": 2.7178,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_vs_5yr_pct",
+  "label": "cushing stocks, % difference from 5-year average",
+  "value": 10.9253,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_chg_2w",
+  "label": "cushing stocks, change over the last 2 weeks",
+  "value": 2.849,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_chg_3w",
+  "label": "cushing stocks, change over the last 3 weeks",
+  "value": 3.293,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_chg_4w",
+  "label": "cushing stocks, change over the last 4 weeks",
+  "value": 3.846,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "cushing_stocks_streak",
+  "label": "cushing stocks: consecutive weekly builds",
+  "value": 5.0,
+  "unit": "weeks",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "spr_stocks",
+  "label": "spr stocks",
+  "value": 282.683,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "spr_stocks_wchg",
+  "label": "spr stocks, week-on-week change",
+  "value": -0.3,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "spr_stocks_4wk",
+  "label": "spr stocks, 4-week average",
+  "value": 283.104,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks",
+  "label": "gasoline stocks",
+  "value": 205.31,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_wchg",
+  "label": "gasoline stocks, week-on-week change",
+  "value": -2.952,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_4wk",
+  "label": "gasoline stocks, 4-week average",
+  "value": 205.6695,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_5yr_avg",
+  "label": "gasoline stocks, 5-year average for this week",
+  "value": 216.1324,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_vs_5yr",
+  "label": "gasoline stocks, difference from 5-year average",
+  "value": -10.8224,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_vs_5yr_pct",
+  "label": "gasoline stocks, % difference from 5-year average",
+  "value": -5.0073,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_chg_2w",
+  "label": "gasoline stocks, change over the last 2 weeks",
+  "value": 0.566,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_chg_3w",
+  "label": "gasoline stocks, change over the last 3 weeks",
+  "value": 0.948,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_chg_4w",
+  "label": "gasoline stocks, change over the last 4 weeks",
+  "value": -0.736,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "gasoline_stocks_streak",
+  "label": "gasoline stocks: consecutive weekly draws",
+  "value": 1.0,
+  "unit": "weeks",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks",
+  "label": "distillate stocks",
+  "value": 104.286,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_wchg",
+  "label": "distillate stocks, week-on-week change",
+  "value": 1.675,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_4wk",
+  "label": "distillate stocks, 4-week average",
+  "value": 104.3037,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_5yr_avg",
+  "label": "distillate stocks, 5-year average for this week",
+  "value": 114.9488,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_vs_5yr",
+  "label": "distillate stocks, difference from 5-year average",
+  "value": -10.6628,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_vs_5yr_pct",
+  "label": "distillate stocks, % difference from 5-year average",
+  "value": -9.2761,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_chg_2w",
+  "label": "distillate stocks, change over the last 2 weeks",
+  "value": -0.852,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_chg_3w",
+  "label": "distillate stocks, change over the last 3 weeks",
+  "value": -0.894,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_chg_4w",
+  "label": "distillate stocks, change over the last 4 weeks",
+  "value": -3.145,
+  "unit": "mb",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "distillate_stocks_streak",
+  "label": "distillate stocks: consecutive weekly builds",
+  "value": 1.0,
+  "unit": "weeks",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "production",
+  "label": "production",
+  "value": 13.269,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "production_wchg",
+  "label": "production, week-on-week change",
+  "value": -0.41,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "production_4wk",
+  "label": "production, 4-week average",
+  "value": 13.7205,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "imports",
+  "label": "imports",
+  "value": 5.758,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "imports_wchg",
+  "label": "imports, week-on-week change",
+  "value": -0.291,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "imports_4wk",
+  "label": "imports, 4-week average",
+  "value": 6.0862,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports",
+  "label": "exports",
+  "value": 3.442,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_wchg",
+  "label": "exports, week-on-week change",
+  "value": -1.128,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_4wk",
+  "label": "exports, 4-week average",
+  "value": 4.0868,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "refinery_runs",
+  "label": "refinery runs",
+  "value": 16.649,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "refinery_runs_wchg",
+  "label": "refinery runs, week-on-week change",
+  "value": 0.034,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "refinery_runs_4wk",
+  "label": "refinery runs, 4-week average",
+  "value": 16.5003,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "utilisation",
+  "label": "utilisation",
+  "value": 93.4,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "utilisation_wchg",
+  "label": "utilisation, week-on-week change",
+  "value": -0.1,
+  "unit": "pp",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "utilisation_4wk",
+  "label": "utilisation, 4-week average",
+  "value": 93.025,
+  "unit": "%",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "product_supplied",
+  "label": "product supplied",
+  "value": 21.231,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "product_supplied_wchg",
+  "label": "product supplied, week-on-week change",
+  "value": -0.13,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "product_supplied_4wk",
+  "label": "product supplied, 4-week average",
+  "value": 21.122,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_03",
+  "label": "US crude exports, average of weekly data in Mar 2026",
+  "value": 3.4215,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_04",
+  "label": "US crude exports, average of weekly data in Apr 2026",
+  "value": 5.1525,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_05",
+  "label": "US crude exports, average of weekly data in May 2026",
+  "value": 5.232,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_06",
+  "label": "US crude exports, average of weekly data in Jun 2026",
+  "value": 4.461,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_07",
+  "label": "US crude exports, average of weekly data in Jul 2026",
+  "value": 3.4976,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_08",
+  "label": "US crude exports, average of weekly data in Aug 2026",
+  "value": 3.8497,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_09",
+  "label": "US crude exports, average of weekly data in Sep 2026",
+  "value": 3.7748,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ },
+ {
+  "id": "exports_avg_2026_10",
+  "label": "US crude exports, average of weekly data in Oct 2026",
+  "value": 4.259,
+  "unit": "mb/d",
+  "as_of": "2026-10-16",
+  "source": "EIA WPSR, week ending 2026-10-16"
+ }
+]

@@ -1,0 +1,43 @@
+id,channel,brent_impact,wti_impact,materiality,rationale
+wpsr,inventory,bullish,mixed,high,"Headline crude draw plus gasoline draw and a large total commercial draw tighten the US balance, but the crude draw reflects lower output and exports rather than stronger runs, and distillates built, so the WTI read is less clean."
+ev_20261001_0,products,bullish,bullish,low,"The Chinese product export halt lifted Brent at the time but was reversed on 9 Oct, so it matters little for this week's balance."
+ev_20261002_1,policy,bearish,bearish,medium,"The G7 release, front-loaded in diesel, adds policy supply over the coming months, and the removal of US diesel export ban risk eased WTI-specific pressure."
+ev_20261004_2,supply,bullish,neutral,low,"Unchanged OPEC+ targets are non-binding while Hormuz stays closed, so the meeting mainly confirmed there was no diplomatic progress."
+ev_20261006_3,macro,bullish,bullish,low,"The EIA outlook sits above the futures curve but is a forecast, not a flow, and its inputs predate the G7 release."
+ev_20261007_4,inventory,neutral,bearish,low,An export-led crude draw alongside Cushing builds and a near-flat WTI prompt spread weighed on WTI relative to Brent; this is now superseded data.
+ev_20261008_5,supply,bullish,bullish,medium,"The temporary Gulf of Mexico shut-in cut US output and imports, and its after-effects still show in this week's production decline."
+ev_20261008_6,geopolitics,bullish,bullish,medium,"Rising tanker attacks and low Kpler Hormuz flows threaten the recovery in Gulf exports, which mainly supports Brent."
+ev_20261009_7,geopolitics,bearish,bearish,medium,"Trump's no-attack-before-the-midterms signal and the resumption of Chinese product exports trim near-term risk premium, although China's October quota is below September exports."
+ev_20261014_8,supply,bullish,bullish,high,The ship sinking and Kpler-measured Hormuz exports far below pre-war levels point to the Gulf export recovery reversing; note that the Kpler and IEA export measures are not comparable.
+ev_20261015_9,inventory,neutral,mixed,medium,"The large storm-driven crude draw lifted WTI on the day, but it came from lower imports and output while Cushing kept building, which tempers the bullish read."
+ev_20261016_10,geopolitics,bullish,bullish,high,"Stepped-up Iranian attacks on shipping rebuilt the risk premium, pushing Brent toward its highest level since May."
+ev_20261018_11,geopolitics,bullish,neutral,medium,"Unverified Houthi claims extend risk to Saudi Arabia's Yanbu Red Sea outlet, which is Brent-relevant but single-sourced and unconfirmed by Saudi authorities."
+ev_20261020_12,geopolitics,bearish,bearish,medium,"Pakistan-mediated talk and returning Russian diesel cargoes trimmed the premium, and the WTI Nov expiry means continuous WTI quotes now roll from Nov to Dec and should not be read as a same-contract move."
+ev_20261021_13,inventory,neutral,bearish,high,"A larger-than-expected crude draw driven by lower output and exports, combined with a fifth straight Cushing build, left WTI lagging Brent."
+op_0,demand,bearish,bearish,low,OPEC's earlier cut to 2026 demand growth is stale and has been superseded by the October report.
+op_1,demand,neutral,neutral,low,A forward-year demand view has no bearing on this week's balance.
+op_2,supply,neutral,neutral,low,The call on DoC crude is not binding while Gulf exports are logistics-limited.
+op_3,supply,neutral,neutral,low,The 2027 call matters only if transit normalises.
+op_4,supply,bearish,neutral,low,This unverified third-party summary shows a modest August OPEC output gain that is now dated.
+op_5,demand,bearish,bearish,low,The IEA's September demand-contraction estimate has been superseded by its October report.
+op_6,inventory,bullish,bullish,low,The large August global stock draw is historical context showing depleted buffers.
+op_7,macro,bullish,bullish,low,"The STEO price forecast is a view rather than a balance input, and it excludes the G7 release."
+op_8,macro,neutral,neutral,low,Annual price forecasts give context only.
+op_9,supply,bearish,neutral,low,Lower estimated Middle East shut-ins imply a partial recovery that the latest Hormuz attacks may now be undoing.
+op_10,policy,neutral,neutral,low,The September OPEC+ pause is dated and was superseded by the October meeting.
+op_11,policy,neutral,neutral,low,"The second pause leaves targets unchanged with output already below them, so it does not alter supply."
+op_12,demand,bearish,bearish,medium,A sixth straight OPEC cut to 2026 demand growth confirms that demand destruction is visible even in OPEC's numbers.
+op_13,demand,neutral,neutral,low,OPEC's deferred-demand view for 2027 is irrelevant to the near-term balance.
+op_14,demand,bearish,bearish,medium,"The IEA sees a deep 2026 demand contraction, heavily concentrated in diesel, which offsets supply tightness."
+op_15,supply,bearish,bearish,medium,"The September supply rebound and Gulf export recovery reported by the IEA predate the October attacks, so they may overstate current flows."
+op_16,inventory,mixed,mixed,medium,"Record-low on-land stocks are bullish, but much of the oil has moved onto water rather than disappearing."
+op_17,demand,bullish,bullish,low,Global runs at a seasonal low that the IEA expects to rise toward year-end point to rising crude demand ahead.
+cn_0,demand,neutral,neutral,low,August Chinese crude import data are dated and remain far below pre-war levels.
+cn_1,demand,bullish,neutral,low,"Chinese refinery runs exceeding available crude imply stock draws, but the data are dated."
+cn_2,inventory,bullish,neutral,low,"China's implied crude stock draws show onshore buffers being used, but the data are dated."
+cn_3,products,neutral,neutral,low,"This is a dated estimate of Chinese product exports, and definitions differ across sources."
+cn_4,macro,bullish,bullish,low,A marginal move back into expansion in China's manufacturing PMI is weak demand support.
+cn_5,products,bullish,neutral,low,The Chinese product export suspension has since been reversed.
+cn_6,demand,neutral,neutral,low,Chinese crude imports are flat month on month and still sharply lower year on year.
+cn_7,inventory,bullish,neutral,medium,"Record Chinese onshore crude draws, based on unofficial tracking estimates, point to tight Asian crude availability."
+cn_8,products,bearish,neutral,low,"China's product exports have resumed, but October volumes are expected below September, so the return only partly relieves product tightness."

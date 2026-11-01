@@ -1,0 +1,9 @@
+date,contract,settle,source,check
+2026-10-09,CLX26.NYM,91.85,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),
+2026-10-12,CLX26.NYM,93.74,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),
+2026-10-13,CLX26.NYM,94.14,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),
+2026-10-14,CLX26.NYM,95.09,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),
+2026-10-15,CLX26.NYM,97.97,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),"confirmed: ANSA 16 Oct (WTI Nov 97.26, -0.72%) implies 97.97"
+2026-10-16,CLX26.NYM,101.41,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),confirmed: CNBC/NBC (WTI +3.5% to 101.41)
+2026-10-19,CLX26.NYM,103.66,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),confirmed: weekly recap (expiring Nov 103.66)
+2026-10-20,CLX26.NYM,101.79,Yahoo CL=F front month (identical to CLX26 on every day 23 Sep-8 Oct; CLX26 delisted by Yahoo after its 20 Oct expiry),confirmed: Reuters 20 Oct (Nov expired at 101.79)

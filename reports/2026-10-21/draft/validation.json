@@ -1,0 +1,1292 @@
+[
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_wchg",
+  "written": "3.1 mb",
+  "context": "rcial crude stocks fell for a third straight week, by 3.1 mb{{F:crude_stocks_wchg}} against a",
+  "expected": -3.06,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261021_13",
+  "written": "0.8 mb",
+  "context": "ight week, by 3.1 mb{{F:crude_stocks_wchg}} against a 0.8 mb{{S:ev_20261021_13}} draw expe",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:production_wchg",
+  "written": "410 kb/d",
+  "context": "upply did the work, not demand: output fell another 410 kb/d{{F:production_wchg}} to 13.27 ",
+  "expected": -410.0,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:production",
+  "written": "13.27 mb/d",
+  "context": "put fell another 410 kb/d{{F:production_wchg}} to 13.27 mb/d{{F:production}}, imports ",
+  "expected": 13.269,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_streak",
+  "status": "no number before tag",
+  "context": "d, runs were flat, and Cushing built for a 5th straight week{{F:cushing_stocks_streak}} to 27.6 m"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks",
+  "written": "27.6 mb",
+  "context": "or a 5th straight week{{F:cushing_stocks_streak}} to 27.6 mb{{F:cushing_stocks}}, 10.9%{{F",
+  "expected": 27.594,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_vs_5yr_pct",
+  "written": "10.9%",
+  "context": "ushing_stocks_streak}} to 27.6 mb{{F:cushing_stocks}}, 10.9%{{F:cushing_stocks_vs_5yr_pct}} above its",
+  "expected": 10.9253,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1_wchg",
+  "written": "$2.76",
+  "context": "price followed Hormuz, not the US data. Brent Dec rose $2.76{{F:brent_m1_wchg}} to $108.8",
+  "expected": 2.76,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1",
+  "written": "$108.82",
+  "context": " US data. Brent Dec rose $2.76{{F:brent_m1_wchg}} to $108.82{{F:brent_m1}} and WTI D",
+  "expected": 108.82,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1_wchg",
+  "written": "$3.25",
+  "context": "nt_m1_wchg}} to $108.82{{F:brent_m1}} and WTI Dec rose $3.25{{F:wti_m1_wchg}} to $97.15",
+  "expected": 3.25,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1",
+  "written": "$97.15",
+  "context": "brent_m1}} and WTI Dec rose $3.25{{F:wti_m1_wchg}} to $97.15{{F:wti_m1}}; more tha",
+  "expected": 97.15,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:ulsd_crack_wchg",
+  "written": "$10.54",
+  "context": "vel. Products went the other way: the ULSD crack fell $10.54{{F:ulsd_crack_wchg}} as distil",
+  "expected": -10.5412,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1",
+  "written": "$108.82",
+  "context": " w/w | Comment | |---|---:|---:|---| | Brent Dec26 | $108.82{{F:brent_m1}} | +$2.76{",
+  "expected": 108.82,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1_wchg",
+  "written": "+$2.76",
+  "context": "--:|---:|---| | Brent Dec26 | $108.82{{F:brent_m1}} | +$2.76{{F:brent_m1_wchg}} | From $1",
+  "expected": 2.76,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1_prev",
+  "written": "$106.06",
+  "context": ".82{{F:brent_m1}} | +$2.76{{F:brent_m1_wchg}} | From $106.06{{F:brent_m1_prev}}. Settled ",
+  "expected": 106.06,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261016_10",
+  "written": "$109.86",
+  "context": "m1_wchg}} | From $106.06{{F:brent_m1_prev}}. Settled $109.86{{S:ev_20261016_10}} on 16 Oct",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261020_12",
+  "written": "$111.99",
+  "context": "ev}}. Settled $109.86{{S:ev_20261016_10}} on 16 Oct; $111.99{{S:ev_20261020_12}} high on 2",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261021_13",
+  "written": "+$0.03",
+  "context": "n 16 Oct; $111.99{{S:ev_20261020_12}} high on 20 Oct; +$0.03{{S:ev_20261021_13}} on WPSR d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1",
+  "written": "$97.15",
+  "context": "$0.03{{S:ev_20261021_13}} on WPSR day | | WTI Dec26 | $97.15{{F:wti_m1}} | +$3.25{",
+  "expected": 97.15,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1_wchg",
+  "written": "+$3.25",
+  "context": "13}} on WPSR day | | WTI Dec26 | $97.15{{F:wti_m1}} | +$3.25{{F:wti_m1_wchg}} | From $9",
+  "expected": 3.25,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1_prev",
+  "written": "$93.90",
+  "context": "| $97.15{{F:wti_m1}} | +$3.25{{F:wti_m1_wchg}} | From $93.90{{F:wti_m1_prev}}; –$0.67{{",
+  "expected": 93.9,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261021_13",
+  "written": "–$0.67",
+  "context": "3.25{{F:wti_m1_wchg}} | From $93.90{{F:wti_m1_prev}}; –$0.67{{S:ev_20261021_13}} on WPSR d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261020_12",
+  "written": "$101.79",
+  "context": "0.67{{S:ev_20261021_13}} on WPSR day. Nov expired at $101.79{{S:ev_20261020_12}} | | Brent",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec",
+  "written": "$11.67",
+  "context": "79{{S:ev_20261020_12}} | | Brent–WTI, matched Dec26 | $11.67{{F:brent_wti_dec}} | –$0.49{",
+  "expected": 11.67,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec_wchg",
+  "written": "–$0.49",
+  "context": "rent–WTI, matched Dec26 | $11.67{{F:brent_wti_dec}} | –$0.49{{F:brent_wti_dec_wchg}} | Peak $1",
+  "expected": -0.49,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec_max",
+  "written": "$13.79",
+  "context": "ent_wti_dec}} | –$0.49{{F:brent_wti_dec_wchg}} | Peak $13.79{{F:brent_wti_dec_max}} on 12 Oct",
+  "expected": 13.79,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec_4w",
+  "written": "$8.61",
+  "context": "c_max}} on 12 Oct (widest in our data, from Oct 2024); $8.61{{F:brent_wti_dec_4w}} on 23 Sep",
+  "expected": 8.61,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2",
+  "written": "+$1.69",
+  "context": ".61{{F:brent_wti_dec_4w}} on 23 Sep | | WTI Dec–Jan | +$1.69{{F:wti_m1m2}} | +$0.62{",
+  "expected": 1.69,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2_wchg",
+  "written": "+$0.62",
+  "context": "}} on 23 Sep | | WTI Dec–Jan | +$1.69{{F:wti_m1m2}} | +$0.62{{F:wti_m1m2_wchg}} | $0.71{{",
+  "expected": 0.62,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2_20261007",
+  "written": "$0.71",
+  "context": "n | +$1.69{{F:wti_m1m2}} | +$0.62{{F:wti_m1m2_wchg}} | $0.71{{F:wti_m1m2_20261007}} on 7 Oct;",
+  "expected": 0.71,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2_20260923",
+  "written": "$2.42",
+  "context": "i_m1m2_wchg}} | $0.71{{F:wti_m1m2_20261007}} on 7 Oct; $2.42{{F:wti_m1m2_20260923}} on 23 Sep",
+  "expected": 2.42,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2",
+  "written": "+$3.75",
+  "context": "{{F:wti_m1m2_20260923}} on 23 Sep | | Brent Dec–Jan | +$3.75{{F:brent_m1m2}} | +$1.09{",
+  "expected": 3.75,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2_wchg",
+  "written": "+$1.09",
+  "context": "n 23 Sep | | Brent Dec–Jan | +$3.75{{F:brent_m1m2}} | +$1.09{{F:brent_m1m2_wchg}} | Reverse",
+  "expected": 1.09,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2_20260923",
+  "written": "$3.09",
+  "context": " +$1.09{{F:brent_m1m2_wchg}} | Reverses the slide from $3.09{{F:brent_m1m2_20260923}} (23 Sep) ",
+  "expected": 3.09,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2_20261014",
+  "written": "$2.66",
+  "context": " slide from $3.09{{F:brent_m1m2_20260923}} (23 Sep) to $2.66{{F:brent_m1m2_20261014}} (14 Oct) ",
+  "expected": 2.66,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:ulsd_crack",
+  "written": "$95.09",
+  "context": "2_20261014}} (14 Oct) | | ULSD crack, Dec26 matched | $95.09{{F:ulsd_crack}} | –$10.54",
+  "expected": 95.0924,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:ulsd_crack_wchg",
+  "written": "–$10.54",
+  "context": "ULSD crack, Dec26 matched | $95.09{{F:ulsd_crack}} | –$10.54{{F:ulsd_crack_wchg}} | Distill",
+  "expected": -10.5412,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:rbob_crack",
+  "written": "$30.49",
+  "context": "esel supply returning | | RBOB crack, Dec26 matched | $30.49{{F:rbob_crack}} | –$7.58{",
+  "expected": 30.488,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:rbob_crack_wchg",
+  "written": "–$7.58",
+  "context": " RBOB crack, Dec26 matched | $30.49{{F:rbob_crack}} | –$7.58{{F:rbob_crack_wchg}} | Fell de",
+  "expected": -7.576,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crack_321",
+  "written": "$52.02",
+  "context": "pite a gasoline draw | | 3-2-1 crack, Dec26 matched | $52.02{{F:crack_321}} | –$8.56{",
+  "expected": 52.0228,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crack_321_wchg",
+  "written": "–$8.56",
+  "context": " 3-2-1 crack, Dec26 matched | $52.02{{F:crack_321}} | –$8.56{{F:crack_321_wchg}} | Partly ",
+  "expected": -8.5644,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_spot",
+  "written": "$115.22",
+  "context": "l: the WTI leg rallied | | EIA Brent spot (20 Oct) | $115.22{{F:brent_spot}} | — | $6.",
+  "expected": 115.22,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_spot_premium",
+  "written": "$6.43",
+  "context": "IA Brent spot (20 Oct) | $115.22{{F:brent_spot}} | — | $6.43{{F:brent_spot_premium}} over Bren",
+  "expected": 6.43,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_vol_20d",
+  "written": "38.2%",
+  "context": "e premium a week earlier | | WTI 20-day realised vol | 38.2%{{F:wti_vol_20d}} | — | Hig",
+  "expected": 38.1737,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:production_wchg",
+  "written": "410 kb/d",
+  "context": "uld confirm the artefact read | Output fell another 410 kb/d{{F:production_wchg}} after –30",
+  "expected": -410.0,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261015_9",
+  "written": "–300 kb/d",
+  "context": "t fell another 410 kb/d{{F:production_wchg}} after –300 kb/d{{S:ev_20261015_9}} the week ",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:imports_wchg",
+  "written": "–291 kb/d",
+  "context": "0 kb/d{{S:ev_20261015_9}} the week before; imports –291 kb/d{{F:imports_wchg}}; crude dr",
+  "expected": -291.0,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_wchg",
+  "written": "+1.0 mb",
+  "context": "TI spreads; Nov–Dec vulnerable into expiry | Cushing +1.0 mb{{F:cushing_stocks_wchg}} (5th buil",
+  "expected": 0.987,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_streak",
+  "status": "no number before tag",
+  "context": "expiry | Cushing +1.0 mb{{F:cushing_stocks_wchg}} (5th build{{F:cushing_stocks_streak}}), yet Nov"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261020_12",
+  "written": "$101.79",
+  "context": "{F:cushing_stocks_streak}}), yet Nov expired firm at $101.79{{S:ev_20261020_12}} and Dec–J",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2_wchg",
+  "written": "$0.62",
+  "context": "irm at $101.79{{S:ev_20261020_12}} and Dec–Jan widened $0.62{{F:wti_m1m2_wchg}} | **Wrong",
+  "expected": 0.62,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec_wchg",
+  "written": "–$0.49",
+  "context": "scalated and Brent rallied, but WTI rose more; spread –$0.49{{F:brent_wti_dec_wchg}} to $11.67",
+  "expected": -0.49,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec",
+  "written": "$11.67",
+  "context": "I rose more; spread –$0.49{{F:brent_wti_dec_wchg}} to $11.67{{F:brent_wti_dec}} | **Wrong",
+  "expected": 11.67,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:ulsd_crack_wchg",
+  "written": "–$10.54",
+  "context": "illate too low for a sustained collapse | ULSD crack –$10.54{{F:ulsd_crack_wchg}}; distilla",
+  "expected": -10.5412,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks_wchg",
+  "written": "+1.7 mb",
+  "context": " ULSD crack –$10.54{{F:ulsd_crack_wchg}}; distillate +1.7 mb{{F:distillate_stocks_wchg}} | **Beari",
+  "expected": 1.675,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1_wchg",
+  "written": "$3.25",
+  "context": "me on the 16 Oct Hormuz escalation; WTI Dec still rose $3.25{{F:wti_m1_wchg}} on the we",
+  "expected": 3.25,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_wchg",
+  "written": "–3.1 mb",
+  "context": "headline tight, Cushing loose.** - **Crude stocks:** –3.1 mb{{F:crude_stocks_wchg}} to 412.5 ",
+  "expected": -3.06,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks",
+  "written": "412.5 mb",
+  "context": "**Crude stocks:** –3.1 mb{{F:crude_stocks_wchg}} to 412.5 mb{{F:crude_stocks}}, 14.0 mb{",
+  "expected": 412.517,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_vs_5yr",
+  "written": "14.0 mb",
+  "context": "F:crude_stocks_wchg}} to 412.5 mb{{F:crude_stocks}}, 14.0 mb{{F:crude_stocks_vs_5yr}} (3.3%{{F:",
+  "expected": -13.9824,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_vs_5yr_pct",
+  "written": "3.3%",
+  "context": "mb{{F:crude_stocks}}, 14.0 mb{{F:crude_stocks_vs_5yr}} (3.3%{{F:crude_stocks_vs_5yr_pct}}) below th",
+  "expected": -3.2784,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_streak",
+  "written": "3 straight draws",
+  "context": "yr_pct}}) below the 5-year average. That is 3 straight draws{{F:crude_stocks_streak}} and –14.8",
+  "expected": 3.0,
+  "unit": "weeks",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_chg_3w",
+  "written": "–14.8 mb",
+  "context": "at is 3 straight draws{{F:crude_stocks_streak}} and –14.8 mb{{F:crude_stocks_chg_3w}} over thre",
+  "expected": -14.803,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:production",
+  "written": "13.27 mb/d",
+  "context": " weeks. - **Why it drew:**   - Production fell to 13.27 mb/d{{F:production}}, well bel",
+  "expected": 13.269,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:production_4wk",
+  "written": "13.72 mb/d",
+  "context": "{F:production}}, well below its 4-week average of 13.72 mb/d{{F:production_4wk}}. The sour",
+  "expected": 13.7205,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261008_5",
+  "written": "1.28 mb/d",
+  "context": "w to lower output; continued Isaias after-effects (1.28 mb/d{{S:ev_20261008_5}} shut in a",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:imports",
+  "written": "5.76 mb/d",
+  "context": "do not confirm restart status.   - Imports fell to 5.76 mb/d{{F:imports}}.   - Runs",
+  "expected": 5.758,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:refinery_runs",
+  "written": "16.65 mb/d",
+  "context": "to 5.76 mb/d{{F:imports}}.   - Runs barely moved: 16.65 mb/d{{F:refinery_runs}} (+34 kb/d",
+  "expected": 16.649,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:refinery_runs_wchg",
+  "written": "+34 kb/d",
+  "context": "- Runs barely moved: 16.65 mb/d{{F:refinery_runs}} (+34 kb/d{{F:refinery_runs_wchg}}), utilisa",
+  "expected": 34.0,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:utilisation",
+  "written": "93.4%",
+  "context": "runs}} (+34 kb/d{{F:refinery_runs_wchg}}), utilisation 93.4%{{F:utilisation}}. So this ",
+  "expected": 93.4,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:exports_wchg",
+  "written": "1.13 mb/d",
+  "context": "o this is not a demand-pull draw.   - Exports fell 1.13 mb/d{{F:exports_wchg}} to 3.44 m",
+  "expected": -1.128,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:exports",
+  "written": "3.44 mb/d",
+  "context": "w.   - Exports fell 1.13 mb/d{{F:exports_wchg}} to 3.44 mb/d{{F:exports}}, against ",
+  "expected": 3.442,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:exports_avg_2026_10",
+  "written": "4.26 mb/d",
+  "context": "4 mb/d{{F:exports}}, against an October average of 4.26 mb/d{{F:exports_avg_2026_10}}. Lower ex",
+  "expected": 4.259,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_wchg",
+  "written": "+1.0 mb",
+  "context": " and weekly export data are volatile. - **Cushing:** +1.0 mb{{F:cushing_stocks_wchg}} to 27.6 m",
+  "expected": 0.987,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks",
+  "written": "27.6 mb",
+  "context": ". - **Cushing:** +1.0 mb{{F:cushing_stocks_wchg}} to 27.6 mb{{F:cushing_stocks}}, +3.8 mb{",
+  "expected": 27.594,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_chg_4w",
+  "written": "+3.8 mb",
+  "context": "ushing_stocks_wchg}} to 27.6 mb{{F:cushing_stocks}}, +3.8 mb{{F:cushing_stocks_chg_4w}} over four",
+  "expected": 3.846,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_vs_5yr",
+  "written": "2.7 mb",
+  "context": "3.8 mb{{F:cushing_stocks_chg_4w}} over four weeks and 2.7 mb{{F:cushing_stocks_vs_5yr}} above nor",
+  "expected": 2.7178,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:gasoline_stocks_wchg",
+  "written": "–3.0 mb",
+  "context": "ocks_vs_5yr}} above normal. - **Products:** Gasoline –3.0 mb{{F:gasoline_stocks_wchg}}, 5.0%{{F:",
+  "expected": -2.952,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:gasoline_stocks_vs_5yr_pct",
+  "written": "5.0%",
+  "context": "Products:** Gasoline –3.0 mb{{F:gasoline_stocks_wchg}}, 5.0%{{F:gasoline_stocks_vs_5yr_pct}} below ave",
+  "expected": -5.0073,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks_wchg",
+  "written": "+1.7 mb",
+  "context": "soline_stocks_vs_5yr_pct}} below average. Distillate +1.7 mb{{F:distillate_stocks_wchg}} to 104.3 ",
+  "expected": 1.675,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks",
+  "written": "104.3 mb",
+  "context": ". Distillate +1.7 mb{{F:distillate_stocks_wchg}} to 104.3 mb{{F:distillate_stocks}}, still 9.",
+  "expected": 104.286,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks_vs_5yr_pct",
+  "written": "9.3%",
+  "context": "stocks_wchg}} to 104.3 mb{{F:distillate_stocks}}, still 9.3%{{F:distillate_stocks_vs_5yr_pct}} below ave",
+  "expected": -9.2761,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:wpsr",
+  "written": "8.5 mb",
+  "context": "5yr_pct}} below average. Total commercial stocks fell 8.5 mb{{S:wpsr}}; the SPR ",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:spr_stocks_wchg",
+  "written": "0.3 mb",
+  "context": "mercial stocks fell 8.5 mb{{S:wpsr}}; the SPR slipped 0.3 mb{{F:spr_stocks_wchg}}. - **Dema",
+  "expected": -0.3,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:wpsr",
+  "written": "21.1 mb/d",
+  "context": " - **Demand:** Four-week product supplied averaged 21.1 mb/d{{S:wpsr}}, up 3.2%{",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:wpsr",
+  "written": "3.2%",
+  "context": "-week product supplied averaged 21.1 mb/d{{S:wpsr}}, up 3.2%{{S:wpsr}} y/y; four",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:wpsr",
+  "written": "2.4%",
+  "context": ".2%{{S:wpsr}} y/y; four-week distillate demand was down 2.4%{{S:wpsr}} y/y. US d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:analysis",
+  "written": "36%",
+  "context": "st inventory link to WTI M1–M2 (stock deviations explain 36%{{S:analysis}} of spread",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:analysis",
+  "written": "$0.029/bbl",
+  "context": "lain 36%{{S:analysis}} of spread variation; about $0.029/bbl{{S:analysis}} per mb ve",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2",
+  "written": "$1.69",
+  "context": "is}} per mb versus normal). A Dec–Jan backwardation of $1.69{{F:wti_m1m2}} with Cush",
+  "expected": 1.69,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261016_10",
+  "written": "9",
+  "context": "muz escalation, then mediation.** - Iran attacked at least 9{{S:ev_20261016_10}} commercia",
+  "status": "NOT IN SOURCE"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261016_10",
+  "written": "$110",
+  "context": "61016_10}} commercial ships after 11 Oct; Brent touched $110{{S:ev_20261016_10}} on 16 Oct",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261020_12",
+  "written": "18",
+  "context": "n 16 Oct, its first time since May. Kpler counts at least 18{{S:ev_20261020_12}} vessels a",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261014_8",
+  "written": "8.5 mb/d",
+  "context": "ttacked in two weeks. - Kpler put Hormuz exports at 8.5 mb/d{{S:ev_20261014_8}} in the we",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261014_8",
+  "written": "40%",
+  "context": ".5 mb/d{{S:ev_20261014_8}} in the week to 12 Oct, nearly 40%{{S:ev_20261014_8}} below pre",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_15",
+  "written": "13.9 mb/d",
+  "context": "-war. That compares with IEA Gulf crude exports of 13.9 mb/d{{S:op_15}} in Septem",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261020_12",
+  "written": "$0.76",
+  "context": "met Pakistan's army chief on mediation; Brent Dec fell $0.76{{S:ev_20261020_12}} that day.",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2",
+  "written": "$3.75",
+  "context": " confirms physical tightness: Brent Dec–Jan widened to $3.75{{F:brent_m1m2}}. But the ",
+  "expected": 3.75,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_spot_premium",
+  "written": "$6.43",
+  "context": "m2}}. But the physical premium has narrowed sharply to $6.43{{F:brent_spot_premium}}, suggesti",
+  "expected": 6.43,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:ev_20261002_1",
+  "written": "100 mb",
+  "context": "urn to usual buyers (20 Oct). - The G7 release (up to 100 mb{{S:ev_20261002_1}} of crude ",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:cn_8",
+  "written": "3.7 Mt",
+  "context": "Chinese exports resumed, though the October quota of ~3.7 Mt{{S:cn_8}} is below ",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:cn_8",
+  "written": "4.36 Mt",
+  "context": "t{{S:cn_8}} is below estimated September exports of ~4.36 Mt{{S:cn_8}}. - The IE",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_14",
+  "written": "25%",
+  "context": "mber exports of ~4.36 Mt{{S:cn_8}}. - The IEA attributes 25%{{S:op_14}} of its 20",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_14",
+  "written": "–2.6 mb/d",
+  "context": "hanged since last week):** IEA sees 2026 demand at –2.6 mb/d{{S:op_14}}, OPEC at ",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_12",
+  "written": "+0.2 mb/d",
+  "context": " sees 2026 demand at –2.6 mb/d{{S:op_14}}, OPEC at +0.2 mb/d{{S:op_12}}. IEA on-l",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_16",
+  "written": "113 mb",
+  "context": "OPEC at +0.2 mb/d{{S:op_12}}. IEA on-land stocks fell 113 mb{{S:op_16}} in Septem",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_7",
+  "written": "$105",
+  "context": " Brent now trades above the EIA STEO's 4Q26 forecast of $105{{S:op_7}}, which as",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_9",
+  "written": "4.5 mb/d",
+  "context": "05{{S:op_7}}, which assumes Middle East shut-ins of 4.5 mb/d{{S:op_9}}.  ## 4. T",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_vs_5yr_pct",
+  "written": "3.3%",
+  "context": "nd attacks rising; unverified risk to Yanbu. - US crude 3.3%{{F:crude_stocks_vs_5yr_pct}} below its",
+  "expected": -3.2784,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:crude_stocks_streak",
+  "written": "3 draws",
+  "context": "e_stocks_vs_5yr_pct}} below its 5-year average after 3 draws{{F:crude_stocks_streak}}; Gulf of ",
+  "expected": 3.0,
+  "unit": "weeks",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_m1m2",
+  "written": "$3.75",
+  "context": "f of Mexico output still depressed. - Brent Dec–Jan at $3.75{{F:brent_m1m2}} and risin",
+  "expected": 3.75,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks_vs_5yr_pct",
+  "written": "9.3%",
+  "context": "ing; global on-land stocks very low. - Distillate still 9.3%{{F:distillate_stocks_vs_5yr_pct}} below ave",
+  "expected": -9.2761,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_vs_5yr_pct",
+  "written": "10.9%",
+  "context": "cks_vs_5yr_pct}} below average.  **Bearish** - Cushing 10.9%{{F:cushing_stocks_vs_5yr_pct}} above nor",
+  "expected": 10.9253,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:cushing_stocks_streak",
+  "written": "5 builds",
+  "context": "%{{F:cushing_stocks_vs_5yr_pct}} above normal after 5 builds{{F:cushing_stocks_streak}}; low expo",
+  "expected": 5.0,
+  "unit": "weeks",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:op_14",
+  "written": "–2.6 mb/d",
+  "context": "falling fast. - Demand estimates keep falling (IEA –2.6 mb/d{{S:op_14}}).  **Posi",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2",
+  "written": "$1.69",
+  "context": "not a recommendation): - **WTI structure:** Dec–Jan at $1.69{{F:wti_m1m2}} is back t",
+  "expected": 1.69,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_m1m2_20260930",
+  "written": "$1.69",
+  "context": " at $1.69{{F:wti_m1m2}} is back to its 30 Sep level of $1.69{{F:wti_m1m2_20260930}}. We have ",
+  "expected": 1.69,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:brent_wti_dec",
+  "written": "$11.67",
+  "context": " is likely to track Brent's structure. - **Brent–WTI ($11.67{{F:brent_wti_dec}}):** Two-w",
+  "expected": 11.67,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:exports",
+  "written": "3.44 mb/d",
+  "context": "US output supports WTI. A recovery in exports from 3.44 mb/d{{F:exports}} would tig",
+  "expected": 3.442,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:distillate_stocks_vs_5yr_pct",
+  "written": "9.3%",
+  "context": " - **Cracks:** Bearish momentum on diesel supply, but a 9.3%{{F:distillate_stocks_vs_5yr_pct}} stock def",
+  "expected": -9.2761,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:wti_vol_20d",
+  "written": "38.2%",
+  "context": " floor. - **Flat price:** Headline-driven, with vol at 38.2%{{F:wti_vol_20d}}. US data ",
+  "expected": 38.1737,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "F:exports_avg_2026_10",
+  "written": "4.26 mb/d",
+  "context": " exports | A rebound toward the October average of 4.26 mb/d{{F:exports_avg_2026_10}} would tig",
+  "expected": 4.259,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "EN",
+  "tag": "S:cn_8",
+  "written": "3.7 Mt",
+  "context": "; Russian and G7 diesel arrivals | Exports below the ~3.7 Mt{{S:cn_8}} quota wou",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:crude_stocks_streak",
+  "status": "no number before tag",
+  "context": "## 核心判斷  美國商業原油庫存連續第3週{{F:crude_stocks_streak}}下降，本週減少306"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:crude_stocks_wchg",
+  "written": "306萬桶",
+  "context": "## 核心判斷  美國商業原油庫存連續第3週{{F:crude_stocks_streak}}下降，本週減少306萬桶{{F:crude_stocks_wchg}}，降幅大於路透調查預",
+  "expected": -306.0,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:ev_20261021_13",
+  "written": "80萬桶",
+  "context": "_streak}}下降，本週減少306萬桶{{F:crude_stocks_wchg}}，降幅大於路透調查預期的80萬桶{{S:ev_20261021_13}}。但這是「供給端」造",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:production_wchg",
+  "written": "41萬桶/日",
+  "context": "降幅大於路透調查預期的80萬桶{{S:ev_20261021_13}}。但這是「供給端」造成的去庫：產量再減41萬桶/日{{F:production_wchg}}至1327萬桶/日{",
+  "expected": -41.0,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:production",
+  "written": "1327萬桶/日",
+  "context": "_13}}。但這是「供給端」造成的去庫：產量再減41萬桶/日{{F:production_wchg}}至1327萬桶/日{{F:production}}，進口也下滑，煉廠開",
+  "expected": 1326.9,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:cushing_stocks_streak",
+  "status": "no number before tag",
+  "context": "}至1327萬桶/日{{F:production}}，進口也下滑，煉廠開工幾乎持平，需求並未轉強。同時庫欣庫存連續第5週{{F:cushing_stocks_streak}}增加，達2760萬桶"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:cushing_stocks",
+  "written": "2760萬桶",
+  "context": "幾乎持平，需求並未轉強。同時庫欣庫存連續第5週{{F:cushing_stocks_streak}}增加，達2760萬桶{{F:cushing_stocks}}，高於五年均值10.",
+  "expected": 2759.4,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:cushing_stocks_vs_5yr_pct",
+  "written": "10.9%",
+  "context": "ng_stocks_streak}}增加，達2760萬桶{{F:cushing_stocks}}，高於五年均值10.9%{{F:cushing_stocks_vs_5yr_pct}}。換言之，美國數據表",
+  "expected": 10.9253,
+  "unit": "%",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_m1_wchg",
+  "written": "2.76美元",
+  "context": "_pct}}。換言之，美國數據表面偏緊、交割地卻偏鬆。油價本週主要由荷莫茲海峽局勢推動：布蘭特12月合約上漲2.76美元{{F:brent_m1_wchg}}至108.82美元{",
+  "expected": 2.76,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_m1",
+  "written": "108.82美元",
+  "context": "價本週主要由荷莫茲海峽局勢推動：布蘭特12月合約上漲2.76美元{{F:brent_m1_wchg}}至108.82美元{{F:brent_m1}}，西德州12月合約上",
+  "expected": 108.82,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:wti_m1_wchg",
+  "written": "3.25美元",
+  "context": "元{{F:brent_m1_wchg}}至108.82美元{{F:brent_m1}}，西德州12月合約上漲3.25美元{{F:wti_m1_wchg}}至97.15美元{{",
+  "expected": 3.25,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:wti_m1",
+  "written": "97.15美元",
+  "context": "82美元{{F:brent_m1}}，西德州12月合約上漲3.25美元{{F:wti_m1_wchg}}至97.15美元{{F:wti_m1}}。  ## 本週三大",
+  "expected": 97.15,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:ev_20261016_10",
+  "written": "9艘",
+  "context": "ti_m1}}。  ## 本週三大驅動因素  1. **荷莫茲升級、再遇調停降溫**：伊朗自10月11日以來至少攻擊9艘{{S:ev_20261016_10}}商船，布蘭特12月合",
+  "status": "NOT IN SOURCE"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:ev_20261016_10",
+  "written": "109.86美元",
+  "context": "月11日以來至少攻擊9艘{{S:ev_20261016_10}}商船，布蘭特12月合約於10月16日收在109.86美元{{S:ev_20261016_10}}，布蘭特週漲幅幾乎全",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:ev_20261020_12",
+  "written": "18艘",
+  "context": "在109.86美元{{S:ev_20261016_10}}，布蘭特週漲幅幾乎全數來自當天。Kpler統計兩週內至少18艘{{S:ev_20261020_12}}船隻遭襲。胡塞武裝聲",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:ev_20261020_12",
+  "written": "0.76美元",
+  "context": "bu）等沙國設施，但沙方未證實，屬單一來源。10月20日伊朗總統會晤巴基斯坦陸軍參謀長談調停，布蘭特當日回落0.76美元{{S:ev_20261020_12}}。 2. **墨西哥",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:exports_wchg",
+  "written": "113萬桶/日",
+  "context": "哥灣供給尚未恢復**：上週預期颶風影響消退後庫存將回補，結果產量繼續下滑，判斷「方向對、時點早」。出口驟減113萬桶/日{{F:exports_wchg}}至344萬桶/日{{",
+  "expected": -112.8,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:exports",
+  "written": "344萬桶/日",
+  "context": "補，結果產量繼續下滑，判斷「方向對、時點早」。出口驟減113萬桶/日{{F:exports_wchg}}至344萬桶/日{{F:exports}}；出口減少其實是把原",
+  "expected": 344.2,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:ulsd_crack_wchg",
+  "written": "10.54美元",
+  "context": "*：美國暫停制裁使俄羅斯柴油回到原有買家，G7釋儲以柴油為先，中國成品油出口也已恢復。ULSD裂解價差下跌10.54美元{{F:ulsd_crack_wchg}}至95.09美元{{",
+  "expected": -10.5412,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:ulsd_crack",
+  "written": "95.09美元",
+  "context": "先，中國成品油出口也已恢復。ULSD裂解價差下跌10.54美元{{F:ulsd_crack_wchg}}至95.09美元{{F:ulsd_crack}}，餾分油庫存增加16",
+  "expected": 95.0924,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:distillate_stocks_wchg",
+  "written": "168萬桶",
+  "context": "美元{{F:ulsd_crack_wchg}}至95.09美元{{F:ulsd_crack}}，餾分油庫存增加168萬桶{{F:distillate_stocks_wchg}}。部分跌幅屬機械性，",
+  "expected": 167.5,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_m1m2",
+  "written": "3.75美元",
+  "context": "。  ## 對供需平衡的影響  - **期限結構**：兩大基準近月結構同步走強。布蘭特12月–1月價差擴大至3.75美元{{F:brent_m1m2}}，扭轉過去一個月的走",
+  "expected": 3.75,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_spot_premium",
+  "written": "6.43美元",
+  "context": "元{{F:brent_m1m2}}，扭轉過去一個月的走弱，與實貨偏緊一致。不過布蘭特現貨對期貨的升水已收窄至6.43美元{{F:brent_spot_premium}}，顯示期貨追上現貨，",
+  "expected": 6.43,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:wti_m1m2",
+  "written": "1.69美元",
+  "context": "um}}，顯示期貨追上現貨，而非現貨持續拉開。 - **WTI結構與庫欣背離**：西德州12月–1月價差升至1.69美元{{F:wti_m1m2}}。依我們2010–2",
+  "expected": 1.69,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:crude_stocks_vs_5yr",
+  "written": "1398萬桶",
+  "context": "強的庫存變數，但目前庫欣高於常態，價差卻呈逆價差，與歷史關係不符。我們推論（未經檢驗），全美庫存低於五年均值1398萬桶{{F:crude_stocks_vs_5yr}}、墨灣減產與布蘭特拉",
+  "expected": -1398.24,
+  "unit": "mb",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_wti_dec_wchg",
+  "written": "0.49美元",
+  "context": "5yr}}、墨灣減產與布蘭特拉動，暫時壓過了庫欣的累庫。 - **布蘭特–WTI價差**：同月12月價差收窄0.49美元{{F:brent_wti_dec_wchg}}至11.67美元{{",
+  "expected": -0.49,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:brent_wti_dec",
+  "written": "11.67美元",
+  "context": "*布蘭特–WTI價差**：同月12月價差收窄0.49美元{{F:brent_wti_dec_wchg}}至11.67美元{{F:brent_wti_dec}}，由布蘭特端的地緣溢",
+  "expected": 11.67,
+  "unit": "$/bbl",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:op_14",
+  "written": "260萬桶/日",
+  "context": "dec}}，由布蘭特端的地緣溢價主導，而非美國出口拉動。 - **全球面**：IEA預估2026年需求萎縮260萬桶/日{{S:op_14}}，其中25%{{S:",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:op_14",
+  "written": "25%",
+  "context": "導，而非美國出口拉動。 - **全球面**：IEA預估2026年需求萎縮260萬桶/日{{S:op_14}}，其中25%{{S:op_14}}來自柴油；美國近四週",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:wpsr",
+  "written": "3.2%",
+  "context": "萎縮260萬桶/日{{S:op_14}}，其中25%{{S:op_14}}來自柴油；美國近四週油品總需求反而年增3.2%{{S:wpsr}}。弱點集中在柴油。 ",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "F:exports_avg_2026_10",
+  "written": "426萬桶/日",
+  "context": "6週累庫而WTI近月價差仍穩，我們將放棄對WTI結構的保守看法。 - **美國出口**：若回升至10月均值426萬桶/日{{F:exports_avg_2026_10}}附近，將收緊美國平衡",
+  "expected": 425.9,
+  "unit": "mb/d",
+  "status": "ok"
+ },
+ {
+  "doc": "CN",
+  "tag": "S:cn_8",
+  "written": "370萬噸",
+  "context": "伊朗–巴基斯坦調停**：實質進展將先打擊布蘭特風險溢價與近月價差。 - **中國10月成品油出口**：若低於約370萬噸{{S:cn_8}}配額，可望為柴油裂解",
+  "status": "ok"
+ }
+]
