@@ -124,7 +124,7 @@ Note: EIA released on Thursday, so changes run Thursday to Thursday. The 8 Oct j
 | WTI Nov 15 Oct settle | 97.97 | Yahoo delisted CLX26 after its 20 Oct expiry; value from Yahoo's front-month series (identical to CLX26 on every day 23 Sep–8 Oct), see `data/manual/futures_patch.csv`. ANSA (16 Oct) quotes 97.26, –0.72%, implying 97.97 | Match |
 | Brent Dec 15 Oct settle | 105.92 | Yahoo; ANSA (16 Oct) quotes 105.22, –0.66%, implying 105.92 | Match |
 | 8 Oct reference settles | Brent Dec 104.28, WTI Nov 91.49 | Yahoo only | Single source |
-| Dec/Dec spreads | not shown | Dec27 contracts unpriced on Yahoo after 8–9 Oct | Excluded |
+| Dec/Dec spreads | not shown | Dec27 contracts were missing from our download after 8–9 Oct: a pipeline change on 9 Oct stopped requesting them (Yahoo had them). Fixed on 1 Nov 2026 and `monitor.xlsx` rebuilt with the spreads. This row previously blamed Yahoo | Excluded |
 | Hurricane Isaias shut-ins | 62.9%, 1.28 mb/d, 121 platforms | gCaptain (8 Oct, regulator data); DTN (9 Oct) ~1.3 mb/d | Consistent |
 | Hormuz exports 8.5 mb/d (Kpler) | week to 12 Oct | CNBC (14 Oct) | Secondary, single source |
 | Tanker attacks | about a dozen, 28 Sep–2 Oct | OilPrice citing Reuters (8 Oct) | Secondary |

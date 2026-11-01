@@ -108,7 +108,7 @@ Note: the window includes 15 Oct, last week's delayed WPSR day. WTI is quoted on
 | 20 Oct settles | Brent Dec 108.79; WTI Nov 101.79 (expiry); WTI Dec 97.82 | Yahoo (WTI Nov from the front-month series, `data/manual/futures_patch.csv`); Reuters (20 Oct) | Match |
 | 16 Oct settles | Brent Dec 109.86; WTI Nov 101.41 | Yahoo; CNBC / NBC (16 Oct) | Consistent |
 | 14 Oct reference settles | Brent Dec 106.06; WTI Dec 93.90 | Yahoo only | Single source |
-| Dec/Dec spreads | not shown | Dec27 contracts unpriced on Yahoo after 8–9 Oct | Excluded |
+| Dec/Dec spreads | not shown | Dec27 contracts were missing from our download after 8–9 Oct: a pipeline change on 9 Oct stopped requesting them (Yahoo had them). Fixed on 1 Nov 2026 and `monitor.xlsx` rebuilt with the spreads. This row previously blamed Yahoo | Excluded |
 | Hormuz attacks | at least nine since 11 Oct; at least 18 in two weeks (Kpler) | CNBC (16 Oct); Reuters (20 Oct) | Secondary |
 | Houthi claims on Yanbu and Shaybah | | CNBC (18 Oct); Reuters (20 Oct). Saudi authorities did not confirm | Unverified claims |
 | Iran–Pakistan mediation; Russian diesel cargoes | | Reuters via Yahoo Finance (20 Oct) | Single source |

@@ -139,6 +139,8 @@ def download_futures(offline):
         for i in range(CURVE_MONTHS + 1):
             m = today + pd.DateOffset(months=i)
             tickers.append(contract(root, m.year, m.month))
+        # Dec/Dec spread: Dec(Y+1) is outside the 13-month window from January to October
+        tickers += [contract(root, today.year, 12), contract(root, today.year + 1, 12)]
     for root in ("HO", "RB"):   # products, for cracks on matched delivery months
         for i in range(4):
             m = today + pd.DateOffset(months=i)
