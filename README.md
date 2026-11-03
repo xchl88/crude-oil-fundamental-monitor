@@ -5,6 +5,13 @@ A weekly monitor of what is driving Brent and WTI. It combines a Python pipeline
 **Question:** What is driving Brent and WTI right now, and what does it mean for the near-term balance and trading environment?
 **Research question:** How do weekly US inventory, production and refinery developments interact with the Brent–WTI spread and crude curve structure?
 
+## Data-quality dashboard
+[Open the report in Data Studio](https://datastudio.google.com/reporting/edae83bb-c2f7-4b39-b0dd-2abd2fe13a3d) (view-only) · tables from `bi_export.py` · [definitions and build guide](bi/README.md)
+
+For one report build, it checks whether each of the 20 Brent/WTI, inventory and refinery series was **fresh** under the as-of rule, **complete** once market holidays are allowed for, and **reconciled** with EIA's own published summary. It also shows the brief's manual cross-checks and the settlements filled from a second series. Loaded: the 21 Oct 2026 report. The completeness check found a pipeline bug that had dropped the Dec/Dec spreads from two reports (see *Futures data quality* below).
+
+<img src="docs/dashboard.png" alt="Data-quality dashboard for the 21 Oct 2026 report: six scorecards, a freshness and completeness table for 20 series, a reconciliation table against EIA's summary, manual cross-checks by status, missing observations and filled settlements" width="760">
+
 ## Weekly reports
 One report per EIA release: as of the **Wednesday** NYMEX settlement (Thursday in federal-holiday weeks, when EIA publishes a day late). Each folder is self-contained: English brief, Chinese summary, Excel dashboard, charts, and data as of that date.
 
@@ -36,10 +43,17 @@ pip install -r requirements.txt
 python pipeline.py                              # download latest data -> output/ (working view)
 python pipeline.py --offline --asof 2026-10-07  # weekly report build -> reports/2026-10-07/
 python analysis.py                              # statistics -> output/analysis.md
+python brief_llm.py draft <date> --dry-run      # drafting prompts only, no API call -> reports/<date>/draft/
+python bi_export.py <date>                      # data-quality tables -> bi/
+python make_pdf.py <date>                       # brief PDFs (needs pandoc and Google Chrome)
 ```
-If `EIA_API_KEY` is set, EIA data come from the Open Data API v2; otherwise from EIA's public .xls files. Free key: https://www.eia.gov/opendata/register.php
+`<date>` is a report date that already has a folder from the `--offline --asof` build. Running `brief_llm.py draft` on an existing report overwrites its `draft/` records.
+API keys are read from environment variables only; none is stored in the repo (`.env` is git-ignored).
+- `EIA_API_KEY` (optional): if set, EIA data come from the Open Data API v2; otherwise from EIA's public .xls files. Free key: https://www.eia.gov/opendata/register.php
+- `ANTHROPIC_API_KEY`: needed only for `brief_llm.py draft` without `--dry-run`.
 ```bash
 export EIA_API_KEY="your-key"
+export ANTHROPIC_API_KEY="your-key"
 ```
 
 ## Outputs
@@ -48,6 +62,7 @@ export EIA_API_KEY="your-key"
 | `reports/<date>/` | Weekly report: `brief_EN.md`, `summary_CN.md` (rewritten, not translated) and PDF copies of both, `monitor.xlsx`, `charts/`, as-of data CSVs |
 | `monitor.xlsx` (in each report) | Dashboard sheet plus data sheets. The dashboard holds a market snapshot, an EIA weekly table vs the 5-year range, a bullish/bearish checklist and 8 charts. Data sheets: curve structure, prices/spreads, EIA weekly, OPEC, China, Event Log (filtered to what was public on the report date) |
 | `output/` | Latest working build and `analysis.md` (regression and regime results) |
+| `bi/` | Data-quality tables behind the dashboard, one row set per report (definitions in `bi/README.md`) |
 | `data/manual/` | OPEC, China and event-log tables, entered by hand with a source URL and an `available` (publication) date per row |
 | `data/sources/` | Archived primary sources, e.g. EIA WPSR highlights and the EIA STEO PDF |
 
@@ -72,7 +87,7 @@ export EIA_API_KEY="your-key"
 ## Data and method notes
 - **Sources:**
   - EIA (US government, public domain): spot prices and the Weekly Petroleum Status Report.
-  - Yahoo Finance: futures prices, used only to compute spreads, curve shape and volatility. Raw futures prices are not redistributed in this repo; run the pipeline to download them.
+  - Yahoo Finance: futures prices, used only to compute spreads, curve shape and volatility. Raw futures price series are not redistributed in this repo (`data/raw/` is git-ignored); run the pipeline to download them. The briefs, the Excel dashboards and `data/manual/futures_patch.csv` quote individual settlements.
   - EIA stopped publishing NYMEX futures in April 2024.
 - **As-of rule:** futures use the report-day settlement. EIA spot uses the previous day, since EIA posts spot with a lag. EIA weekly data are included only once released (week ending Friday + 5 days). Manual rows are filtered by publication date.
 - **Seasonality:** each week is compared with the observation nearest the same calendar date in each of the 5 prior years. Checked against EIA's published "% vs five-year average" for crude, gasoline and distillate in both reports: all six match after rounding.
