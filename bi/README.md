@@ -8,7 +8,7 @@ Report (view-only link): https://datastudio.google.com/reporting/edae83bb-c2f7-4
 python bi_export.py 2026-10-21    # adds or replaces that report's rows in bi/*.csv and rebuilds bi/looker_data.xlsx
 ```
 
-The export reads only the report folder and committed source files. Raw Yahoo futures levels are not exported (Yahoo's terms bar redistribution), so the tables can be shared publicly. How each report was built (as-of rule, sources) is described in the main README.
+The export reads only the report folder and committed source files. Raw Yahoo futures levels are not exported (Yahoo's terms bar redistribution), so the tables can be shared publicly. How each report was built (as-of rule, sources) is described in [docs/METHOD.md](../docs/METHOD.md).
 
 ## What each check means
 
